@@ -1,34 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Roun');
+
 .text {
-  position: static;
-  width: 327px;
-  height: 124px;
-  left: 24px;
-  top: 120px;
-  font-family: "Crete Round", serif;
+  font-family: Crete Round,sans-serif;
+  font-style: normal;
   font-weight: normal;
   font-size: 56px;
   line-height: 64px;
-  font-style: normal;
+  letter-spacing: 0.37px;
   color: #ff6b00;
-  display: flex;
-  align-content: center;
 }
 
 .main-body {
-  margin-left: 2rem;
-  padding-top: 4rem;
-  width: 375px;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .navbar {
   display: flex;
-  flex-direction: column;
-  position: absolute;
   background-color: #3c3a39;
-  height: 70px;
-  width: 375px;
   color: #fff;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 h4 {
