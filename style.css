@@ -7,15 +7,23 @@ body {
   height: 670px;
 }
 
-.navbar {
-  display: flex;
+.topnav {
   background-color: #3c3a39;
-  color: #fff;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  overflow: auto;
+  width: 375px;
+  align-items: baseline;
+  display: flex;
+  position: absolute;
+  height: 80px;
+
 }
 
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0 20px 0 20px;
+}
 .name {
   justify-content: flex-start;
   color: white;
@@ -27,7 +35,10 @@ body {
 }
 
 .menu-logo {
+  display: flex;
   justify-content: flex-end;
+  position: absolute;
+  float: right;
 }
 
 .main-body {
@@ -75,20 +86,9 @@ p {
   color: #fff;
 }
 
-.toolbar {
-  display: inline-flex;
-  position: absolute;
-  height: 92px;
-  width: 375px;
-  text-emphasis-color: #fff;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #3c3a39;
-}
-
 .online-icons {
   display: inline-block;
-  justify-content: center;
+  justify-content: space-between;
   list-style-type: none;
   padding-left: 2rem;
   flex-direction: column;
