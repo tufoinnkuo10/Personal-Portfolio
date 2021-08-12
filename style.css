@@ -1,18 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Roun');
-
-.text {
-  font-family: Crete Round,sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 56px;
-  line-height: 64px;
-  letter-spacing: 0.37px;
-  color: #ff6b00;
-}
-
-.main-body {
-  display: flex;
-  flex-flow: column wrap;
+body {
+  background-color: #1c1a19;
+  background-image: url(image/sidepic.png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 670px;
 }
 
 .navbar {
@@ -22,6 +14,35 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.name {
+  justify-content: flex-start;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.menu-logo {
+  justify-content: flex-end;
+}
+
+.main-body {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.text {
+  font-family: 'Crete-Round',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
 }
 
 h4 {
@@ -65,35 +86,6 @@ p {
   background-color: #3c3a39;
 }
 
-/* header{
-    width: 375%;
-    background: #3c3a39;
-    padding: 1rem 3rem;
-    height: 92px;
-    left: 0;
-    display: flex; */
-
-ul {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  padding: 0 20px 0 20px;
-}
-
-.logo {
-  justify-content: flex-start;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.union-icon {
-  justify-content: flex-end;
-}
-
 .online-icons {
   display: inline-block;
   justify-content: center;
@@ -101,30 +93,4 @@ ul {
   padding-left: 2rem;
   flex-direction: column;
   margin-top: 5%;
-}
-
-/* .toggle-button{
-    border: 0;
-    outline: none;
-    background: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-
-}
-
-.toggle-button span{
-    width: 16px;
-    height: 2px;
-    background: white;
-    margin: 0.4rem 0;
-} */
-
-body {
-  background-color: #1c1a19;
-  background-image: url(image/sidepic.png);
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  width: 375px;
-  height: 670px;
 }
