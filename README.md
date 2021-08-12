@@ -5,7 +5,7 @@
 > A project aimed at creating a personal portfolio webpage, commiting and demanding a pull request and a code review. Other important tools were put into use as well such as linters.
 
 
-![screenshot](header.png)
+![screenshot](portfolio.png)
 
 css and html files were edited and put into use and also they were checked by linters to make sure they are up to the task.
 
