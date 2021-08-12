@@ -1,0 +1,143 @@
+.text{
+    position: static;
+    width: 327px;
+    height: 124px;
+    left: 24;
+    top:120px;
+    font-family: 'Crete Round', serif;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    font-style: normal;
+    color: #ff6B00;
+    display: flexbox;
+    align-content: center;  
+}
+.main-body{
+    margin-left: 2rem;
+    padding-top: 4rem;
+    width: 375px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #3c3a39;
+    height: 70px;
+    width: 375px;
+    color: #fff;
+    justify-content: center;
+}
+
+h4{
+    position: static;
+    width: 327px;
+    height: 27px;
+    left: 24;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    font-style: normal;
+    color: #fff5e1;
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    
+
+}
+.body{
+   
+    
+}
+p{
+    position: static;
+    width: 327px;
+    height: 123px;
+    left: 24;
+    top:120px;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    color: #ffffff;  
+}
+
+.toolbar{
+    display:inline-flex;
+    position: absolute;
+    height: 92px;
+    width: 375px;
+    left: 0px;
+    top: 0px;
+    text-emphasis-color: #fff;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #3c3a39;
+}
+/*header{
+    width: 375%;
+    background: #3c3a39;
+    padding: 1rem 3rem;
+    height: 92px;
+    left: 0;
+    display: flex;*/
+
+ul{
+    display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0 20px 0 20px;
+}
+
+.logo{
+    justify-content: flex-start;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+.union-icon {
+    justify-content: flex-end;
+}
+
+.online-icons{
+    display: inline-block;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 2rem;
+    flex-direction: column;
+    margin-top: 5%;
+
+}
+
+/*.toggle-button{
+    border: 0;
+    outline: none;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.toggle-button span{
+    width: 16px;
+    height: 2px;
+    background: white;
+    margin: 0.4rem 0;
+}*/
+body{
+    background-color: #1C1A19;
+    background-image: url(image/sidepic.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 670px;
+}
+
+

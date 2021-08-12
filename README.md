@@ -1,11 +1,10 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Personal-Portfolio
+A Demo web page of  my self
 
-# Personal Portfolio
-
-> A project aimed at creating a personal portfolio webpage, commiting and demanding a pull request and a code review. Other important tools were put into use as well such as linters.
+> A project aimed at creating a personal portfolio webpage,literaly a clone of figma after which we commit and demand a pull request and a code review. Other important tools were put into use as well such as linters.
 
 
-![screenshot](header.png)
+![screenshot](portfolio.png)
 
 css and html files were edited and put into use and also they were checked by linters to make sure they are up to the task.
 
@@ -13,7 +12,7 @@ add flex box and edit them.
 
 add background image and edit.
 
-add button and edit them.
+links from figma
 
 
 
@@ -79,3 +78,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
