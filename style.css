@@ -36,8 +36,6 @@ nav {
   width: 390px;
   color: #fff;
   justify-content: center;
-  margin-top: -0.5rem;
-  margin-left: -1rem;
 }
 
 .name {
@@ -110,16 +108,28 @@ p {
   display: inline-block;
   justify-content: space-between;
   list-style-type: none;
-  padding-left: 1rem;
   flex-direction: column;
   margin-top: 5px;
   font-size: 30px;
 }
 
-.online,
+.online-icons,
 a {
   padding-left: 1rem;
-  color: #fff;
-  font-size: 30px;
-  
+  color: #ffff;
+}
+
+.icons {
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding-left: 0.5rem;
+  padding-right: 3rem;
+}
+
+.logo {
+  padding-left: 0;
 }
