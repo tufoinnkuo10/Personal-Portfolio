@@ -17,7 +17,7 @@ ul {
 
 li {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
@@ -110,13 +110,16 @@ p {
   display: inline-block;
   justify-content: space-between;
   list-style-type: none;
-  padding-left: 2rem;
+  padding-left: 1rem;
   flex-direction: column;
   margin-top: 5px;
+  font-size: 30px;
 }
 
 .online,
 a {
   padding-left: 1rem;
   color: #fff;
+  font-size: 30px;
+  
 }
