@@ -1,17 +1,15 @@
 # Personal-Portfolio
 A Demo web page of  my self
 
-> A project aimed at creating a personal portfolio webpage,literaly a clone of figma after which we commit and demand a pull request and a code review. Other important tools were put into use as well such as linters.
+> My first project
+Designed a personal webpage about myself with a template from Figma.
 
 ![screenshot](portfolio.png)
 
-css and html files were edited and put into use and also they were checked by linters to make sure they are up to the task.
+This milestone consist of two sections
 
-add flex box and edit them.
-
-add background image and edit.
-
-links from figma
+1 The toolbar section
+2 The headline section
 
 
 
@@ -23,11 +21,14 @@ links from figma
 
 ## Live Link
 
-[Live Demo Link](https://tufoinnkuo10.github.io/Hello-Microverse/)
+[Live Demo Link](https://tufoinnkuo10.github.io/Personal-Portfolio/)
 
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
+##To get a local copy up and running follow these simple example steps
+- Open your terminal
+- Run git clone and paste the link above
+- Open the folder on a code editor
+- Create a branch and work on
+- And finaly you can also demand for a pull request
 
 ### Prerequisites
 
@@ -38,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-RUN git clone https://github.com/tufoinnkuo10/Hello-Microverse
+RUN git clone https://github.com/tufoinnkuo10/Personal-Portfolio
 
 ### Install
 
@@ -55,7 +56,7 @@ No test required
 ## Authors
 
 👤 **Author**
-
+- Name: Tufoin Nkuo
 - GitHub: [@tufoinnkuo10](https://github.com/tufoinnkuo10)
 - Twitter: [@itztenten](https://twitter.com/itztenten)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tufoin-nkuo-3b272320b)
