@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round");
+
 body {
   background-color: #1c1a19;
   background-image: url(image/sidepic.png);
   background-position: 100% 100%;
   background-repeat: no-repeat;
-  width: 375px;
-  height: 670px;
+  height: 80vh;
 }
 
 ul {
@@ -58,16 +59,19 @@ nav {
 .main-body {
   display: flex;
   flex-flow: column wrap;
+  align-content: center;
 }
 
 .text {
-  font-family: "Crete-Round", sans-serif;
+  font-family:'Crete Round', 'sans-serif' ;
   font-style: normal;
   font-weight: normal;
   font-size: 56px;
   line-height: 64px;
-  letter-spacing: 0.37px;
   color: #ff6b00;
+  letter-spacing: 0.37px;
+  margin-top: 30%;
+  margin-bottom: 0;
 }
 
 h4 {
@@ -84,6 +88,8 @@ h4 {
   display: flex;
   align-items: center;
   padding-top: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 p {
