@@ -15,7 +15,7 @@ ul {
 }
 
 li {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -37,22 +37,12 @@ nav {
   justify-content: center;
   margin-top: -0.5rem;
   margin-left: -1rem;
-  
 }
 
-/*.topnav {
-  background-color: #3c3a39;
-  overflow: auto;
-  width: 375px;
-  align-items: baseline;
-  display: flex;
-  height: 80px;
-}
-*/
 .name {
   justify-content: flex-start;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -71,7 +61,7 @@ nav {
 }
 
 .text {
-  font-family: 'Crete-Round', sans-serif;
+  font-family: "Crete-Round", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 56px;
@@ -85,7 +75,7 @@ h4 {
   width: 327px;
   height: 27px;
   left: 24px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
@@ -102,7 +92,7 @@ p {
   height: 123px;
   left: 24px;
   top: 120px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
