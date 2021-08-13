@@ -21,7 +21,7 @@ This milestone consist of two sections
 
 ## Live Link
 
-[Live Demo Link](https://tufoinnkuo10.github.io/Personal-Portfolio/)
+[Live Demo Link](https://vigorous-turing-480551.netlify.app/)
 
 ##To get a local copy up and running follow these simple example steps
 - Open your terminal
@@ -34,7 +34,7 @@ This milestone consist of two sections
 
 - Internet connection
 - github and git
-- 15mb of storage
+- 100mb of storage
 
 
 ### Setup
