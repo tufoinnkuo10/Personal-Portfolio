@@ -35,7 +35,7 @@ a {
   color: #fff;
 }
 
-.main-section {
+.main-body {
   background-color: #1c1a19;
   width: 375px;
   height: 670px;
@@ -188,7 +188,7 @@ a {
 .professional-main {
   display: grid;
   row-gap: 40px;
-  background-image: url(/image/ref.png);
+  background-image: url(/image/stories.png);
   background-repeat: no-repeat;
   margin-left: 1rem;
   height: 400px;
