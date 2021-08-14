@@ -11,7 +11,7 @@ This milestone consist of two sections
 
 1 The toolbar section
 2 The headline section
-3 Added buttons and the hover function
+3 Added buttons and the hover
 4 Images and text about different portfolios
 5 Icons for the different sections
 
