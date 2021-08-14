@@ -270,7 +270,7 @@ a {
   color: #5b5957;
 }
 
-.about-me-container {
+.about-me {
   background-color: #1c1a19;
   width: 375px;
   height: 2000px;
@@ -278,7 +278,7 @@ a {
 
 .aboutme-c {
   margin-top: 6rem;
-  background-image: url(/image/Group2.png);
+  background-image: url(/image/sidepic2.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
