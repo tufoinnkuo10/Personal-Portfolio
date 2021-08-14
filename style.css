@@ -131,7 +131,7 @@ a {
   margin-left: 2rem;
 }
 
-.grid-container {
+.new-grid-container {
   grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 18vh;
@@ -147,7 +147,7 @@ a {
   border-bottom: 1px solid black;
   padding-bottom: 2.5rem;
 }
-.pic-2 {
+.scnd-pic {
   padding-top: 4rem;
 }
 .new_h4 {
@@ -159,7 +159,7 @@ a {
   line-height: 44px;
   padding: 1rem 0;
 }
-.new_p {
+.new_para {
   color: #091e42;
   font-family: 'Inter', sans-serif;
   font-style: normal;

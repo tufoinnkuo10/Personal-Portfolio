@@ -3,6 +3,7 @@ A Demo web page of  my self
 
 > My first project
 Designed a personal webpage about myself with a template from Figma.
+-Added other templates to the project
 
 ![screenshot](portfolio.png)
 
@@ -10,6 +11,9 @@ This milestone consist of two sections
 
 1 The toolbar section
 2 The headline section
+3 Added buttons and the hover function
+4 Images and text about different portfolios
+5 Icons for the different sections
 
 
 
