@@ -82,14 +82,14 @@ h6 {
   font-weight: normal;
 }
 
-.social-icons {
+.online-icons {
   display: inline-block;
   justify-content: flex-start;
   list-style-type: none;
   margin-top: 5%;
 }
 
-.social-icons,
+.online-icons,
 a {
   padding-left: 1rem;
 }
@@ -185,7 +185,7 @@ a {
   box-sizing: border-box;
 }
 
-.professional {
+.professional-main {
   display: grid;
   row-gap: 40px;
   background-image: url(/image/placeholder.png);
@@ -194,7 +194,7 @@ a {
   height: 400px;
 }
 
-.professional-h1 {
+.professional-main-h1 {
   display: flex;
   justify-content: center;
   font-family: 'Crete Round', serif;
@@ -206,7 +206,7 @@ a {
   margin-top: 5rem;
 }
 
-.professional-p {
+.professional-main-p {
   display: flex;
   justify-content: center;
   font-family: 'Inter', sans-serif;
