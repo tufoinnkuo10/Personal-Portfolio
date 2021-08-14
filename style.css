@@ -1,11 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-.portfolio {
-  background-color: #1c1a19;
-  background-image: url(image/sidepic.png);
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  height: 80vh;
+nav {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #3c3a39;
+  height: 70px;
+  width: 375px;
+  color: #fff;
+  justify-content: center;
 }
 
 ul {
@@ -17,7 +24,7 @@ ul {
 
 li {
   font-family: "Roboto", sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
@@ -28,109 +35,61 @@ a {
   color: #fff;
 }
 
-nav {
-  display: flex;
-  flex-direction: column;
-  background-color: #3c3a39;
-  height: 65px;
-  width: 390px;
-  color: #fff;
-  justify-content: center;
-  padding-left: 2rem;
-}
-
-.name {
-  justify-content: flex-start;
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.menu-logo {
-  display: flex;
-  justify-content: flex-end;
-  float: right;
-}
-
 .main-body {
-  display: flex;
-  flex-flow: column wrap;
-  align-content: center;
+  background-color: #1c1a19;
+  width: 375px;
+  height: 670px;
+  background-image: url(image/sidepic.png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .text {
-  font-family: "Crete Round", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 9rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.text,
+h1 {
+  color: #ff6b00;
+  font-family: "Crete Round", serif;
   font-size: 56px;
   line-height: 64px;
-  color: #ff6b00;
   letter-spacing: 0.37px;
-  margin-top: 30%;
-  margin-bottom: 0;
 }
 
+.text,
 h4 {
-  position: static;
-  width: 327px;
-  height: 27px;
-  left: 24px;
+  color: #fff5e1;
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
   font-size: 24px;
+  font-weight: bold;
   line-height: 32px;
   font-style: normal;
-  color: #fff5e1;
-  display: flex;
-  align-items: center;
-  padding-top: 1rem;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
+.headline,
 p {
-  position: static;
-  width: 327px;
-  height: 123px;
-  left: 24px;
-  top: 120px;
-  font-family: "poppins", sans-serif;
-  font-weight: 400;
+  color: #fff;
   font-size: 16px;
   line-height: 24px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  color: #fff;
+  font-weight: normal;
 }
 
 .online-icons {
   display: inline-block;
-  justify-content: space-between;
+  justify-content: flex-start;
   list-style-type: none;
-  flex-direction: column;
-  margin-top: 5px;
-  font-size: 30px;
+  margin-top: 5%;
 }
 
 .online-icons,
 a {
   padding-left: 1rem;
-  color: #ffff;
-}
-
-.icons {
-  padding: 0;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  padding-left: 0.5rem;
-  padding-right: 3rem;
-}
-
-.logo {
-  padding-left: 0;
 }
