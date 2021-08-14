@@ -345,7 +345,7 @@ a {
   background-color: #1c1a19;
   width: 375px;
   height: 600px;
-  background-image: url(/image/Group2.png);
+  background-image: url(/image/sidepic.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
@@ -482,4 +482,4 @@ a {
   line-height: 43px;
   color: #fff;
   padding-top: 2rem;
-} */
+} 
