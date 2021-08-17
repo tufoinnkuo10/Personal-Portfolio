@@ -19,7 +19,13 @@ ul {
   list-style: none;
 }
 
-.js-section, .js-section2, .js-section3, .listons-container, .languages, .icons, .nav {
+.js-section,
+.js-section2,
+.js-section3,
+.listons-container,
+.languages,
+.icons,
+.nav {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -57,7 +63,8 @@ a {
   padding-right: 2.5rem;
 }
 
-.headline, h1 {
+.headline,
+h1 {
   color: #ff6b00;
   font-family: "Crete Round", serif;
   font-size: 56px;
@@ -65,7 +72,8 @@ a {
   letter-spacing: 0.37px;
 }
 
-.headline, h4 {
+.headline,
+h4 {
   color: #fff5e1;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
@@ -74,7 +82,8 @@ a {
   font-style: normal;
 }
 
-.headline, h6 {
+.headline,
+h6 {
   color: #fff;
   font-size: 16px;
   line-height: 24px;
@@ -90,7 +99,8 @@ a {
   margin-top: 5%;
 }
 
-.online-icons, a {
+.online-icons,
+a {
   padding-left: 1rem;
 }
 
@@ -446,7 +456,7 @@ a {
 }
 
 .formtext {
-  margin: 24px 0px;
+  margin: 24px 0;
   order: 0;
   flex: none;
   flex-grow: 0;
@@ -456,13 +466,13 @@ a {
 }
 
 .formtext p {
-  font-family: inter;
+  font-family: inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .main-form {
@@ -482,7 +492,8 @@ a {
   justify-content: center;
 }
 
-input, textarea {
+input,
+textarea {
   width: 250px;
   height: 18px;
   font-size: 16px;
@@ -500,13 +511,13 @@ input {
 }
 
 textarea {
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
   height: 175px;
   padding: 12px;
 }
 
 .formbutton {
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   display: block;
   margin: auto;
   font-size: 16px;
@@ -517,7 +528,7 @@ textarea {
   border: none;
 }
 
-.form-section>.online-icons {
+.form-section > .online-icons {
   width: 100%;
   height: auto;
   display: flex;
@@ -526,8 +537,8 @@ textarea {
   flex-direction: column;
 }
 
-.form-section>.online-icons i {
-  color: #505F79;
+.form-section > .online-icons i {
+  color: #505f79;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -543,7 +554,7 @@ li a {
   padding: 0 10px;
 }
 
-.form-section>.line22 {
+.form-section > .line22 {
   justify-content: center;
   align-items: center;
   width: 150px;
