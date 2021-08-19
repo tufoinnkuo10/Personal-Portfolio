@@ -108,12 +108,14 @@ a {
   flex-direction: column;
   margin-left: 20px;
   margin-right: 20px;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  width: 100%;
 }
+
 
 .projectimg {
   margin-top: 2rem;
+  width: 60%;
 }
 
 .work-h1 {
@@ -570,10 +572,27 @@ li a {
   width: 150px;
 }
 
+.content-container {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+
+
+
+
 @media screen and (min-width: 991px) {
 
 .menuitems2 {
     display: none;
+  }
+
+  .first {
+    background-image: url(./image/prof-print.png);
+  }
+
+  .content-container {
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .menuitems {
     align-items: flex-end;
@@ -609,7 +628,29 @@ li a {
     margin-top: 22%;
     position: absolute;
   }
+
   
+.first-box {
+  
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: ce;
+  align-items: 
+  wi
+}
+  
+  .line111,
+  .line22 {
+    display: none;
+
+  }
+
+
+
+
+
+
 }
 
 @media screen and (max-width: 991px) {
