@@ -10,7 +10,7 @@ nav {
   position: absolute;
   background-color: #3c3a39;
   height: 70px;
-  width: 375px;
+  width: 100%;
   color: #fff;
   justify-content: center;
 }
@@ -47,7 +47,6 @@ a {
 
 .main-section {
   background-color: #1c1a19;
-  width: 375px;
   height: 670px;
   background-image: url(image/sidepic.png);
   background-position: 100% 100%;
@@ -106,9 +105,11 @@ a {
 
 .first-box {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   margin-left: 20px;
   margin-right: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .projectimg {
@@ -125,6 +126,9 @@ a {
   line-height: 52px;
   margin-bottom: 3rem;
   margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .line1 {
@@ -202,6 +206,9 @@ a {
   background-repeat: no-repeat;
   margin-left: 1rem;
   height: 400px;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
 }
 
 .professional-h1 {
@@ -282,7 +289,6 @@ a {
 
 .about-me {
   background-color: #1c1a19;
-  width: 375px;
   height: 2000px;
 }
 
@@ -483,6 +489,10 @@ a {
 
 .form-section {
   width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .form1 {
