@@ -587,9 +587,20 @@ li a {
     display: none;
   }
 
-  .first {
+  .aaa {
     background-image: url(./image/prof-print.png);
+    margin-bottom: 50px;
   }
+
+  .bbb {
+    background-image: url(./image/dash-data.png);
+  }
+
+  .ccc {
+    background-image: url(./image/websitepro.png);
+  }
+
+
 
   .content-container {
     grid-template-columns: 1fr 1fr 1fr;
@@ -612,6 +623,7 @@ li a {
     background-image: url(image/sidepic1.png);
     background-position: 100% 100%;
     background-repeat: no-repeat;
+    background-size: 500px;
   }
 
   .icons {
@@ -630,21 +642,45 @@ li a {
   }
 
   
-.first-box {
-  
-  flex-direction: row;
-  margin-left: 20px;
-  margin-right: 20px;
-  justify-content: ce;
-  align-items: 
-  wi
-}
+  .first-box {
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px; 
+    margin-bottom: 25px;
+  }
+
+  .firstcard {
+    margin-bottom: 20px;
+  }
   
   .line111,
   .line22 {
     display: none;
 
   }
+
+  .aboutme-c{
+    margin-top: 6rem;
+    background-image: url(./image/sidepic22.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 450px;
+    background-position: 100% 38%;
+  }
+
+  .aboutme-c {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 0px 0px 0px;
+    border-bottom: solid;
+    border-color: blanchedalmond;
+    padding-left: 80px;
+    margin-top: 3.5rem;
+    
+  }
+
+
 
 
 
@@ -658,6 +694,12 @@ li a {
     display: none;
   }
 
+  .liston-button {
+    display: none;
+  }
+
+  
+
   .icons {
     display: flex;
     justify-content: space-between;
@@ -665,5 +707,13 @@ li a {
     padding: 0 20px 0 20px;
   }
 
+  .aboutme-c {
+    margin-top: 6rem;
+    background-image: url(/image/sidepic2.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+
+  
   
 }
