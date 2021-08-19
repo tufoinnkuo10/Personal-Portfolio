@@ -24,7 +24,7 @@ ul {
 .js-section3,
 .listons-container,
 .languages,
-.icons,
+.icon,
 .nav {
   display: flex;
   justify-content: space-between;
@@ -568,4 +568,61 @@ li a {
   justify-content: center;
   align-items: center;
   width: 150px;
+}
+
+@media screen and (min-width: 991px) {
+
+.menuitems2 {
+    display: none;
+  }
+  .menuitems {
+    align-items: flex-end;
+  }
+  .headline {
+    display: flex;
+    flex-direction: column;
+    padding: 192px 0px;
+    position: absolute;
+    width: 566px;
+    left: 143px;
+  }
+
+  .main-section {
+    background-color: #1c1a19;
+    height: 670px;
+    background-image: url(image/sidepic1.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .icons {
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 20px 0 20px;
+    position: absolute;
+  }
+
+  .online-icons {
+    display: inline-block;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-top: 22%;
+    position: absolute;
+  }
+  
+}
+
+@media screen and (max-width: 991px) {
+  .menuitems {
+    display: none;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 20px 0 20px;
+  }
+
+  
 }
