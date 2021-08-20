@@ -581,6 +581,10 @@ li a {
   flex-direction: column;
 }
 
+.icons3 {
+  margin-top: 100px;
+}
+
 @media screen and (min-width: 991px) {
   .menuitems2 {
     display: none;
@@ -758,6 +762,10 @@ li a {
   .txtarea {
     height: 150px;
     width: 500px;
+  }
+
+  .icons3 {
+    margin-top: 100px;
   }
 }
 
