@@ -260,7 +260,6 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-  margin-left: 2rem;
   margin-top: -1.5rem;
 }
 
@@ -712,7 +711,7 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 300px;
+    padding-left: 200px;
    
   }
 
@@ -720,7 +719,7 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-left: 250px;
+    padding-left: 200px;
   
   }
 
@@ -758,6 +757,7 @@ li a {
     font-weight: bold;
     font-size: 32px;
     text-align: left;
+    padding-left: 70px;
   }
 
   .main-form {
@@ -772,8 +772,9 @@ li a {
     width: 500px;
   }
 
-  .js-section3
-s
+ .form2 {
+   padding-left: 10px
+ }
   
 
 .bsecond {
@@ -826,6 +827,10 @@ s
 
   .formbutton {
     display: block;
+  }
+
+  .first-box {
+    align-items: center;
   }
 
   
