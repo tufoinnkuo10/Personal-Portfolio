@@ -530,7 +530,6 @@ textarea {
 
 .formbutton {
   background-color: #ff6b00;
-  display: block;
   margin: auto;
   font-size: 16px;
   width: 131px;
@@ -604,9 +603,21 @@ li a {
 
   .content-container {
     grid-template-columns: 1fr 1fr 1fr;
+
   }
+
+  .bb1 {
+    display: none;
+  }
+  .aa1 {
+    width: 371px;
+  }
+
   .menuitems {
-    align-items: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
   }
   .headline {
     display: flex;
@@ -709,7 +720,7 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-left: 300px;
+    padding-left: 250px;
   
   }
 
@@ -718,7 +729,6 @@ li a {
   }
 
   .form-section {
-    display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
@@ -727,10 +737,9 @@ li a {
   }
 
   .formtext {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px';
+    padding: 0px;
   }
 
   .bnav {
@@ -743,9 +752,34 @@ li a {
     align-items: center;
     padding: 0px;
   }
+  .formtext p {
+    font-family: inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: left;
+  }
 
+  .main-form {
+    display: none;
+  }
+  
+  .form1 {
+    display: none;
+  }
+  .txtarea {
+    height: 150px;
+    width: 500px;
+  }
 
+  .js-section3
+s
+  
 
+.bsecond {
+  width: ;
+  display: initial;
+}
 
 
 
@@ -759,10 +793,21 @@ li a {
     display: none;
   }
 
-  .liston-button {
+  .form2 {
     display: none;
   }
 
+
+  .liston-button {
+    border: none;
+    background: #ff6b00;
+    width: 327px;
+    height: 48px;
+    margin-top: -2rem;
+
+  }
+
+  
   
 
   .icons {
@@ -777,6 +822,10 @@ li a {
     background-image: url(/image/sidepic2.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
+  }
+
+  .formbutton {
+    display: block;
   }
 
   
