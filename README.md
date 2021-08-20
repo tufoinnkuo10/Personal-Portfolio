@@ -1,15 +1,20 @@
 # Personal-Portfolio
-A Demo web page of  my self
+A Demo web page of  my self (Mobile/Desktop version)
 
-> My first project
-Designed a personal webpage about myself with a template from Figma.
+> Figma clone project
+Designed a personal Mobile and Desktop responsive webpage about myself with a template from Figma.
 
-![screenshot](portfolio.png)
+![screenshot](desktop.png)
+![screenshot](mobile.png)
 
-This milestone consist of two sections
+
+This milestone consist of the various sections
 
 1 The toolbar section
 2 The headline section
+3 Templates of mobile  version and templates of desktop version
+4 Different background images serving thesame purpose
+5 contact form to get in touch
 
 
 

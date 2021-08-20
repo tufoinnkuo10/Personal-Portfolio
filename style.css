@@ -6,13 +6,13 @@
 
 nav {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   position: absolute;
   background-color: #3c3a39;
   height: 70px;
   width: 100%;
   color: #fff;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 ul {
@@ -111,7 +111,6 @@ a {
   justify-content: space-around;
   width: 100%;
 }
-
 
 .projectimg {
   margin-top: 2rem;
@@ -307,7 +306,6 @@ a {
 }
 
 .about-section-h1 {
-  display: flex;
   justify-content: center;
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -320,7 +318,6 @@ a {
 }
 
 .about-section-paragraph {
-  display: flex;
   justify-content: center;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -538,7 +535,7 @@ textarea {
   border: none;
 }
 
-.form-section>.online-icons {
+.form-section > .online-icons {
   width: 100%;
   height: auto;
   display: flex;
@@ -547,7 +544,7 @@ textarea {
   flex-direction: column;
 }
 
-.form-section>.online-icons i {
+.form-section > .online-icons i {
   color: #505f79;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -564,7 +561,7 @@ li a {
   padding: 0 10px;
 }
 
-.form-section>.line22 {
+.form-section > .line22 {
   justify-content: center;
   align-items: center;
   width: 150px;
@@ -575,9 +572,27 @@ li a {
   grid-template-columns: 100%;
 }
 
+.hide {
+  display: none;
+}
+
+.big-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 991px) {
   .menuitems2 {
     display: none;
+  }
+
+  .big-form-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hide {
+    display: block;
   }
 
   .aaa {
@@ -664,7 +679,6 @@ li a {
     margin-top: 6rem;
     background-image: url(./image/sidepic22.png);
     background-repeat: no-repeat;
-    background-position: 100% 100%;
     background-size: 450px;
     background-position: 100% 38%;
   }
@@ -673,64 +687,57 @@ li a {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 50px 0px 0px 0px;
+    padding: 50px 0 0 0;
   }
-  
+
   .a1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 170px;
-    padding-top: 0px;
+    padding-top: 0;
     width: 289.46px;
-    margin-top: 0px;
+    margin-top: 0;
   }
-  
+
   .a2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 200px;
-  
   }
-  
+
   .a3 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding-left: 200px;
-  
   }
-  
+
   .about-me {
     height: 1250px;
   }
-  
+
   .form-section {
     justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-    padding: 130px 0px;
-  
+    align-items: center;
+    flex-direction: column;
+    padding: 130px 0;
   }
-  
+
   .formtext {
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 0;
   }
-  
-  .bnav {
-    position: absolute;
-  }
-  
+
   .iconzz {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding: 0;
   }
-  
+
   .formtext p {
     font-family: inter, sans-serif;
     font-style: normal;
@@ -739,37 +746,22 @@ li a {
     text-align: left;
     padding-left: 70px;
   }
-  
+
   .main-form {
     display: none;
   }
-  
+
   .form1 {
     display: none;
   }
-  
+
   .txtarea {
     height: 150px;
     width: 500px;
   }
-  
-  .form2 {
-    padding-left: 10px
-  }
-  
-  
-  .bsecond {
-    width: ;
-    display: initial;
-  }
-
 }
 
 @media screen and (max-width: 991px) {
-  .menuitems {
-    display: none;
-  }
-
   .form2 {
     display: none;
   }
@@ -780,7 +772,6 @@ li a {
     width: 327px;
     height: 48px;
     margin-top: -2rem;
-
   }
 
   .icons {
@@ -791,7 +782,6 @@ li a {
   }
 
   .aboutme-c {
-    margin-top: 6rem;
     background-image: url(/image/sidepic2.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
