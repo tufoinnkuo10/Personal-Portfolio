@@ -538,7 +538,7 @@ textarea {
   border: none;
 }
 
-.form-section > .online-icons {
+.form-section>.online-icons {
   width: 100%;
   height: auto;
   display: flex;
@@ -547,7 +547,7 @@ textarea {
   flex-direction: column;
 }
 
-.form-section > .online-icons i {
+.form-section>.online-icons i {
   color: #505f79;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -564,7 +564,7 @@ li a {
   padding: 0 10px;
 }
 
-.form-section > .line22 {
+.form-section>.line22 {
   justify-content: center;
   align-items: center;
   width: 150px;
@@ -575,13 +575,8 @@ li a {
   grid-template-columns: 100%;
 }
 
-
-
-
-
 @media screen and (min-width: 991px) {
-
-.menuitems2 {
+  .menuitems2 {
     display: none;
   }
 
@@ -598,16 +593,14 @@ li a {
     background-image: url(./image/websitepro.png);
   }
 
-
-
   .content-container {
     grid-template-columns: 1fr 1fr 1fr;
-
   }
 
   .bb1 {
     display: none;
   }
+
   .aa1 {
     width: 371px;
   }
@@ -616,12 +609,12 @@ li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
   }
+
   .headline {
     display: flex;
     flex-direction: column;
-    padding: 192px 0px;
+    padding: 192px 0;
     position: absolute;
     width: 566px;
     left: 143px;
@@ -651,25 +644,23 @@ li a {
     position: absolute;
   }
 
-  
   .first-box {
     flex-direction: row;
     margin-left: 20px;
-    margin-right: 20px; 
+    margin-right: 20px;
     margin-bottom: 25px;
   }
 
   .firstcard {
     margin-bottom: 20px;
   }
-  
+
   .line111,
   .line22 {
     display: none;
-
   }
 
-  .aboutme-c{
+  .aboutme-c {
     margin-top: 6rem;
     background-image: url(./image/sidepic22.png);
     background-repeat: no-repeat;
@@ -678,25 +669,13 @@ li a {
     background-position: 100% 38%;
   }
 
-  .aboutme-c {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 100px 0px 0px 0px;
-    border-bottom: solid;
-    border-color: blanchedalmond;
-    padding-left: 80px;
-    margin-top: 3.5rem;
-    
-  }
-
   .langs {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 50px 0px 0px 0px;
   }
-
+  
   .a1 {
     display: flex;
     flex-direction: column;
@@ -706,51 +685,52 @@ li a {
     width: 289.46px;
     margin-top: 0px;
   }
-
-  .a2{
+  
+  .a2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 200px;
-   
+  
   }
-
-  .a3{
+  
+  .a3 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding-left: 200px;
   
   }
-
+  
   .about-me {
     height: 1250px;
   }
-
+  
   .form-section {
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
     padding: 130px 0px;
-
+  
   }
-
+  
   .formtext {
     flex-direction: column;
     align-items: center;
     padding: 0px;
   }
-
+  
   .bnav {
     position: absolute;
   }
-
+  
   .iconzz {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
   }
+  
   .formtext p {
     font-family: inter, sans-serif;
     font-style: normal;
@@ -759,7 +739,7 @@ li a {
     text-align: left;
     padding-left: 70px;
   }
-
+  
   .main-form {
     display: none;
   }
@@ -767,25 +747,21 @@ li a {
   .form1 {
     display: none;
   }
+  
   .txtarea {
     height: 150px;
     width: 500px;
   }
-
- .form2 {
-   padding-left: 10px
- }
   
-
-.bsecond {
-  width: ;
-  display: initial;
-}
-
-
-
-
-
+  .form2 {
+    padding-left: 10px
+  }
+  
+  
+  .bsecond {
+    width: ;
+    display: initial;
+  }
 
 }
 
@@ -798,7 +774,6 @@ li a {
     display: none;
   }
 
-
   .liston-button {
     border: none;
     background: #ff6b00;
@@ -807,9 +782,6 @@ li a {
     margin-top: -2rem;
 
   }
-
-  
-  
 
   .icons {
     display: flex;
@@ -823,6 +795,7 @@ li a {
     background-image: url(/image/sidepic2.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
+    margin-top: 1.5rem;
   }
 
   .formbutton {
@@ -832,7 +805,4 @@ li a {
   .first-box {
     align-items: center;
   }
-
-  
-  
 }
