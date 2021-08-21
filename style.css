@@ -587,6 +587,16 @@ li a {
     display: none;
   }
 
+  .tufoin :hover {
+    transform: rotate(360deg);
+    background-color: rgb(132, 132, 134);
+  }
+
+  ul:hover li {
+    transform: rotateY(360deg);
+}
+
+
   .big-form-container {
     display: flex;
     flex-direction: row;
