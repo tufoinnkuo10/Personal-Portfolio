@@ -472,7 +472,7 @@ h6 {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
-  margin: 120px  24px 73px;
+  margin: 120px 24px 73px;
 }
 
 .main-form {
@@ -585,6 +585,16 @@ li a {
 @media screen and (min-width: 1100px) {
   .menuitems2 {
     display: none;
+  }
+
+  .nav :hover {
+    transform: rotate(350deg);
+    background-color: dimgrey;
+  }
+
+  ul:hover li {
+    transform: rotateY(300deg);
+    background-color: blueviolet;
   }
 
   .big-form-container {
