@@ -42,6 +42,7 @@ li {
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
+  width: fit-content;
 }
 
 a {
@@ -368,7 +369,7 @@ h6 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 #language {
@@ -593,13 +594,26 @@ li a {
   .nav :hover {
     transform: rotate(360deg);
     font-size: 25px;
+    background-color: #ff6b00;
   }
 
-  li:hover {
+  /*li:hover {
     transform: rotateY(355deg);
     background-color: transparent;
     background-color: #ff6b00;
-    font-size: 30px;
+    font-size: 30px;*/
+  }
+
+  a {
+    color: #fff;
+    background-color: transparent;
+    transition: all 1s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    color: #333;
+    background-color: #fff;
   }
 
   button
@@ -608,6 +622,15 @@ li a {
     display: flex;
     flex-direction: row;
   }
+
+  .section3,
+  .js-section,
+  .js-section2,
+  .js-section3 {
+    align-items: flex-start;
+  }
+
+  
 
   .hide {
     display: block;
