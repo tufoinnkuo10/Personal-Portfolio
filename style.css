@@ -587,16 +587,15 @@ li a {
     display: none;
   }
 
-  .tufoin :hover {
-    transform: rotate(360deg);
-    background-color: rgb(132, 132, 134);
-  }
+  .nav :hover {
+    transform: rotate(350deg);
+    background-color: dimgrey;
+  } 
 
   ul:hover li {
     transform: rotateY(300deg);
     background-color: blueviolet;
-}
-
+  }
 
   .big-form-container {
     display: flex;
