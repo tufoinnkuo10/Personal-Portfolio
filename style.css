@@ -802,6 +802,24 @@ li a {
   .icons3 {
     margin-top: 100px;
   }
+
+  h4,
+  h1 {
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (max-width: 991px) {
