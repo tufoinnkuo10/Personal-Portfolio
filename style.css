@@ -14,6 +14,9 @@ nav {
   padding-right: 24px;
   color: #fff;
   justify-content: space-between;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
 }
 
 ul {
@@ -588,14 +591,18 @@ li a {
   }
 
   .nav :hover {
-    transform: rotate(350deg);
-    background-color: dimgrey;
+    transform: rotate(360deg);
+    font-size: 25px;
   }
 
-  ul:hover li {
-    transform: rotateY(300deg);
-    background-color: blueviolet;
+  li:hover {
+    transform: rotateY(355deg);
+    background-color: transparent;
+    background-color: #ff6b00;
+    font-size: 30px;
   }
+
+  button
 
   .big-form-container {
     display: flex;
