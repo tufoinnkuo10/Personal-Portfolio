@@ -776,16 +776,6 @@ li a {
     padding: 0;
   }
 
-  .formtext p {
-    font-family: inter, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    text-align: left;
-    padding-left: 70px;
-    margin: 0;
-  }
-
   .main-form {
     display: none;
   }
@@ -801,6 +791,57 @@ li a {
 
   .icons3 {
     margin-top: 100px;
+  }
+
+  h4,
+  h1 {
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .formtext p {
+    font-family: inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: left;
+    padding-left: 70px;
+    margin: 0;
   }
 }
 
