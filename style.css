@@ -595,28 +595,27 @@ li a {
     transform: rotate(360deg);
     font-size: 25px;
     background-color: #ff6b00;
+    transition: all 1s ease-out;
   }
 
-  /*li:hover {
-    transform: rotateY(355deg);
-    background-color: transparent;
-    background-color: #ff6b00;
-    font-size: 30px;*/
-  }
-
-  a {
+  li {
     color: #fff;
     background-color: transparent;
     transition: all 1s ease-out;
   }
-  
-  a:hover,
-  a:focus {
-    color: #333;
-    background-color: #fff;
+
+  li:hover,
+  li:focus {
+    color: rgb(48, 45, 45);
+    background-color: rgba(158, 145, 145, 0.815);
+    font-weight: 700;
   }
 
-  button
+  button:hover,
+  button:focus {
+    color: rgb(110, 5, 5);
+    background-color: #ff6b00;
+  }
 
   .big-form-container {
     display: flex;
@@ -629,8 +628,6 @@ li a {
   .js-section3 {
     align-items: flex-start;
   }
-
-  
 
   .hide {
     display: block;
