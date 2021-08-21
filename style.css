@@ -593,7 +593,8 @@ li a {
   }
 
   ul:hover li {
-    transform: rotateY(360deg);
+    transform: rotateY(300deg);
+    background-color: blueviolet;
 }
 
 
