@@ -4,7 +4,7 @@ A Demo web page of  my self (Mobile/Desktop version)
 > Figma clone project
 Designed a personal Mobile and Desktop responsive webpage about myself with a template from Figma.
 
-![screenshot](./mage/desktopv.png)
+![screenshot](./image/desktopv.png)
 ![screenshot](./image/mobilev.png)
 
 
