@@ -26,7 +26,7 @@ This milestone consist of the various sections
 
 ## Live Link
 
-[Live Demo Link](https://vigorous-turing-480551.netlify.app/)
+[Live Demo Link](https://tufoinnkuo10.github.io/Personal-Portfolio/)
 
 ##To get a local copy up and running follow these simple example steps
 - Open your terminal
