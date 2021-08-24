@@ -573,8 +573,8 @@ li a {
   grid-template-columns: 100%;
 }
 
-.hide {
-  display: none;
+.hidden {
+  display: hidden;
 }
 
 .big-form-container {
@@ -632,7 +632,7 @@ li a {
     align-items: flex-start;
   }
 
-  .hide {
+  .hidden {
     display: block;
   }
 
