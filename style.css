@@ -504,8 +504,10 @@ h6 {
 input,
 textarea {
   width: 250px;
+  text-align: left;
   height: 18px;
   font-size: 16px;
+  color: black;
   background-color: transparent;
   outline: none;
   border: none;
@@ -523,6 +525,7 @@ textarea {
   background-color: #fbf8f7;
   height: 175px;
   padding: 12px;
+  text-align: left;
 }
 
 .formbutton {
