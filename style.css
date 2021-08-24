@@ -596,6 +596,7 @@ li a {
     font-size: 25px;
     background-color: #ff6b00;
     transition: all 1s ease-out;
+    cursor: pointer;
   }
 
   li {
@@ -609,12 +610,14 @@ li a {
     color: rgb(48, 45, 45);
     background-color: rgba(158, 145, 145, 0.815);
     font-weight: 700;
+    cursor: pointer;
   }
 
   button:hover,
   button:focus {
     color: rgb(110, 5, 5);
     background-color: #ff6b00;
+    cursor: pointer;
   }
 
   .big-form-container {
