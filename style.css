@@ -915,9 +915,16 @@ li a {
 }
 
 .mobile-menu ul li {
-  padding: 15px 0;
-  border-bottom: 1px solid #6f6c6b;
-  margin: 0 24px;
-  font-weight: 700;
+  padding: 2px 0;
+  margin: 0 34px;
+  border-right: 50px;
   font-size: 32px;
+  line-height: 33px;
+}
+
+.nav-line {
+  width: 327px;
+  margin: 0 24px;
+  color: #6f6c6b;
+  font-weight: bolder;
 }
