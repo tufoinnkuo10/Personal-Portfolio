@@ -5,14 +5,13 @@ window.onload = () => {
     event.preventDefault();
     const mobileMenu = document.querySelector('.mobile-menu');
     mobileMenu.classList.add('show');
+  });
 
-  } );
+  const iconx = document.querySelector('.iconx');
 
-  const iconx = document.querySelector(".iconx");
-
-  iconx.addEventListener("click", (event)=>{
-    const mobileMenu = document.querySelector(".mobile-menu");
-    mobileMenu.classList.remove("show");
+  iconx.addEventListener('click', () => {
+    const mobileMenu = document.querySelector('.mobile-menu');
+    mobileMenu.classList.remove('show');
   });
 
   const mobileMenuList = document.querySelector('.mobile-menu ul');
@@ -20,6 +19,5 @@ window.onload = () => {
   mobileMenuList.addEventListener('click', () => {
     const mobileMenu = document.querySelector('.mobile-menu');
     mobileMenu.classList.remove('show');
-  })
-
+  });
 };
