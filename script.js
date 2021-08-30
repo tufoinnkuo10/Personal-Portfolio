@@ -14,4 +14,12 @@ window.onload = () => {
     const mobileMenu = document.querySelector(".mobile-menu");
     mobileMenu.classList.remove("show");
   });
+
+  const mobileMenuList = document.querySelector('.mobile-menu ul');
+
+  mobileMenuList.addEventListener('click', () => {
+    const mobileMenu = document.querySelector('.mobile-menu');
+    mobileMenu.classList.remove('show');
+  })
+
 };

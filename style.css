@@ -892,13 +892,32 @@ li a {
   right: 0;
   background-color: #3c3a39;
   display: none;
+  padding-top: 24px;
 }
 
 .iconx {
   margin-left: auto;
   display: block;
+  padding: 14px;
+  box-sizing: content-box;
+  margin-right: 24px;
+  color: #979493;
+  transition: color 120ms ease-in-out;
+  cursor: pointer;
+}
+
+.iconx:hover {
+  color: white;
 }
 
 .mobile-menu.show {
   display: block;
+}
+
+.mobile-menu ul li{
+  padding: 15px 0;
+  border-bottom: 1px solid #6f6c6b;
+  margin: 0 24px;
+  font-weight: 700;
+  font-size: 32px;
 }
