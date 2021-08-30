@@ -894,6 +894,11 @@ li a {
   display: none;
 }
 
+.iconx {
+  margin-left: auto;
+  display: block;
+}
+
 .mobile-menu.show {
   display: block;
 }
