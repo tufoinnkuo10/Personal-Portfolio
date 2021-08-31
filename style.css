@@ -928,3 +928,68 @@ li a {
   color: #6f6c6b;
   font-weight: bolder;
 }
+
+@media screen and (max-width: 1400px) {
+  .pop-up{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+    z-index: 10;
+    background-color: #ebecf0;
+    width: 95%;
+    max-width: %;
+
+
+  }
+
+  .pop-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .pop-header {
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: 
+  }
+  .pop-header .pop-close{
+    border: none;
+    background-color: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.35rem;
+  }
+
+  .pop-body .pop-text{
+    flex-direction: co;
+  }
+
+  .first-header {
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .pop-header .title{
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .pop-header .btns{
+    display: flex;
+    align-items: center;
+    
+  }
+  
+
+
+
+
+
+
+}
+  

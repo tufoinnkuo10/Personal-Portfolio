@@ -20,4 +20,7 @@ window.onload = () => {
     const mobileMenu = document.querySelector('.mobile-menu');
     mobileMenu.classList.remove('show');
   });
+
+
+  
 };
