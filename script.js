@@ -74,11 +74,13 @@ const projectContent = [
 const cproject = document.querySelectorAll('.cproject');
 cproject.forEach((element) => {
   element.addEventListener('click', () => {
-    const popup = document.querySelector(
-      '.pop-up',
-    );
-    console.log(popup);
+    const popup = document.querySelector('.pop-up');
     popup.style.display = 'block';
   });
 });
-console.log(cproject);
+
+const closeElement = document.querySelector('.pop-close');
+closeElement.addEventListener('click', () => {
+  const popup = document.querySelector('.pop-up');
+  popup.style.display = 'none';
+});
