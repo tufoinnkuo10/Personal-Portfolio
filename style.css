@@ -536,7 +536,7 @@ textarea {
   border: none;
 }
 
-.form-section > .online-icons {
+.form-section >.online-icons {
   width: 100%;
   height: auto;
   display: flex;
@@ -846,17 +846,14 @@ li a {
     padding-left: 70px;
     margin: 0;
   }
+
   .pop-header .pop-close {
     border: none;
-    background-color: none;
     outline: none;
     cursor: pointer;
     font-weight: bold;
     font-size: 1.35rem;
   }
-
-  
-
 }
 
 @media screen and (max-width: 800px) {
@@ -895,18 +892,13 @@ li a {
   }
 
   .pop-up {
-    align-items: cener;
-    display: flexx;
-    flex-direction: colun;
     display: none;
     width: 95%;
-    justify-content: ceter;
-    /* max-width: ; */
     position: fixed;
     bottom: 0;
     left: 11px;
     top: 11px;
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   .pop-up .pop-text2 {
@@ -914,10 +906,6 @@ li a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  .pop-body .pop-img {
-    padding-left: 3.4;
-    /* padding right: 5.2; */
   }
 
   .pop-body {
@@ -947,16 +935,13 @@ li a {
   }
 
   .pop-text .pop-text2 {
-    width: px;
     font-weight: normal;
-    size: 16px;
     line-height: 1.5;
     color: #344563;
     padding-left: 40px;
-
   }
 
-  .first-header {
+  .pop-up .first-header {
     justify-content: space-between;
     display: flex;
   }
@@ -975,21 +960,18 @@ li a {
   .pop-header .btns {
     margin: 12px 0;
     padding-left: 80px;
+    margin-top: 50px;
   }
 
   .pop-body-btn {
     margin-top: 80px;
-    
   }
 
-  .svbtn{
-    width: px;
+  .svbtn {
     height: 48px;
-
   }
-  
+
   .pop-body-btn .bbttnn {
-    
     padding: 17px;
   }
 
@@ -1004,9 +986,6 @@ li a {
     padding: 22px;
   }
 
-  .pop-header .btns {
-    margin-top: 50px;
-  }
   .mobile-menu {
     display: none;
   }
@@ -1063,8 +1042,7 @@ li a {
     border: 1px solid;
     border-color: rgb(0, 132, 255);
     z-index: 10;
-    width: 98%;
-    background-color: #ffffff;
+    background-color: #fff;
     top: 11px;
     left: 11px;
     display: none;
@@ -1094,10 +1072,7 @@ li a {
   .pop-text .pop-text2 {
     width: 300px;
     font-weight: 400;
-    size: 16px;
-    line-height: ;
     color: #344563;
-
   }
 
   .first-header {
@@ -1114,25 +1089,20 @@ li a {
     max-width: 500px;
     margin: 10px 5px;
     margin-bottom: 10px;
-
   }
 
   .pop-body-btn {
     margin-top: 80px;
-    
   }
-  
+
   .pop-body-btn .bbttnn {
-    
     padding: 10px;
-  }
-  .pop-body-btn .bbttnn .svbtn .svg {
-    padding left: 5px;
   }
 
   .pop-header .btns {
     margin: 12px 0;
   }
+
   .pop-body-btn .spanbtn2 {
     background-color: #f55800;
     padding: 15px;
@@ -1142,12 +1112,8 @@ li a {
     background-color: #f55800;
     padding: 15px;
   }
+
   .mobile-menu {
     display: none;
   }
-}
-
-*{
-  transition: none !important;
-  
 }
