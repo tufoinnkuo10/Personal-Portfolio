@@ -31,7 +31,7 @@ const projectContent = [
     Image: './image/ref.png',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
     name: 'multi post stories',
-    technologies: ['Ruby on rails', 'css', 'JavaScript'],
+    technologies: ['Ruby on rails', 'Bootstrap', 'JavaScript'],
     links: ['https://tufoinnkuo10.github.io/Personal-Portfolio', 'https://github.com/tufoinnkuo10/Personal-Portfolio'],
   },
   {
@@ -106,4 +106,14 @@ const closeElement = document.querySelector('.pop-close');
 closeElement.addEventListener('click', () => {
   const popup = document.querySelector('.pop-up');
   popup.style.display = 'none';
+});
+
+const email = document.getElementById("mail");
+
+email.addEventListener("input", function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("please use an E-mail address!");
+  } else {
+    email.setCustomValidity("");
+  }
 });

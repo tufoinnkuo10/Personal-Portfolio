@@ -893,11 +893,11 @@ li a {
 
   .pop-up {
     display: none;
-    width: 95%;
+    width: 100%;
     position: fixed;
     bottom: 0;
-    left: 11px;
-    top: 11px;
+    left: 0;
+    top: 1px;
     background-color: #fff;
   }
 
@@ -938,7 +938,14 @@ li a {
     font-weight: normal;
     line-height: 1.5;
     color: #344563;
-    padding-left: 40px;
+    padding-left: 30px;
+    padding-right: 16px;
+  }
+
+  .btns .popbtn {
+    background-color: #fff;
+    padding: 10px;
+    height: 42px;
   }
 
   .pop-up .first-header {
@@ -949,6 +956,7 @@ li a {
   .pop-header .title {
     font-weight: bold;
     font-size: 2rem;
+    padding-left: 20px;
   }
 
   .pop-body .pop-img {
@@ -958,13 +966,13 @@ li a {
   }
 
   .pop-header .btns {
-    margin: 12px 0;
-    padding-left: 80px;
-    margin-top: 50px;
+    margin: 10px 0;
+    padding-left: 30px;
+    margin-top: 60px;
   }
 
   .pop-body-btn {
-    margin-top: 80px;
+    margin-top: 45px;
   }
 
   .svbtn {
@@ -1044,9 +1052,9 @@ li a {
     z-index: 10;
     background-color: #fff;
     top: 11px;
-    left: 11px;
+    left: 130px;
     display: none;
-    width: 90%;
+    right: 130px;
   }
 
   .pop-body {
@@ -1070,9 +1078,15 @@ li a {
   }
 
   .pop-text .pop-text2 {
-    width: 300px;
     font-weight: 400;
     color: #344563;
+    padding-left: 10px;
+    padding-bottom: 130px;
+    width: 450px;
+  }
+
+  .pop-text {
+    width: 100%;
   }
 
   .first-header {
@@ -1086,13 +1100,19 @@ li a {
   }
 
   .pop-body .pop-img {
-    max-width: 500px;
+    max-width: 600px;
     margin: 10px 5px;
     margin-bottom: 10px;
   }
 
   .pop-body-btn {
     margin-top: 80px;
+  }
+
+  .btns .popbtn {
+    background-color: #fff;
+    height: 28px;
+    padding: 0 0 8px 8px;
   }
 
   .pop-body-btn .bbttnn {
@@ -1111,6 +1131,7 @@ li a {
   .pop-body-btn .spanbtn {
     background-color: #f55800;
     padding: 15px;
+    padding-left: 10px;
   }
 
   .mobile-menu {
