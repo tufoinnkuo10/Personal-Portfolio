@@ -893,14 +893,12 @@ li a {
     display: none;
     width: 95%;
     justify-content: ceter;
-    max-width: ;
+    /* max-width: ; */
     position: fixed;
     bottom: 0;
     left: 11px;
     top: 11px;
     background-color: #ffffff;
-
-   
   }
 
   .pop-up .pop-text2 {
@@ -911,7 +909,7 @@ li a {
   }
   .pop-body .pop-img {
     padding-left: 3.4;
-    padding right: 5.2;
+    /* padding right: 5.2; */
   }
 
   .pop-body {
@@ -994,12 +992,6 @@ li a {
   .mobile-menu {
     display: none;
   }
-}
-
-
-
-
-
 }
 
 .mobile-menu {

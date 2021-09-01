@@ -3,9 +3,9 @@ window.onload = () => {
 
   burger.addEventListener('click', (event) => {
     event.preventDefault();
-    console.log("")
+    console.log('');
     const mobileMenu = document.querySelector('.mobile-menu');
-    console.log(mobileMenu)
+    console.log(mobileMenu);
     mobileMenu.classList.add('show');
   });
 
@@ -22,20 +22,13 @@ window.onload = () => {
     const mobileMenu = document.querySelector('.mobile-menu');
     mobileMenu.classList.remove('show');
   });
-
-
-  
 };
 
-
-
-
-
-//content description
+// content description
 
 const projectContent = [
   {
-    Image: "./image/ref.png",
+    Image: './image/ref.png',
     description: 'A daily selection of privately personalized!',
     name: 'multi post stories',
     technologies: ['Ruby on rails', 'css', 'JavaScript'],
@@ -80,13 +73,12 @@ const projectContent = [
 
 const cproject = document.querySelectorAll('.cproject');
 cproject.forEach((element) => {
-  
-  element.addEventListener("click", ()=>{
+  element.addEventListener('click', () => {
     const popup = document.querySelector(
-      '.pop-up'
+      '.pop-up',
     );
     console.log(popup);
     popup.style.display = 'block';
-  })
+  });
 });
 console.log(cproject);
