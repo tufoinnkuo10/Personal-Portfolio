@@ -536,7 +536,7 @@ textarea {
   border: none;
 }
 
-.form-section >.online-icons {
+.form-section > .online-icons {
   width: 100%;
   height: auto;
   display: flex;
