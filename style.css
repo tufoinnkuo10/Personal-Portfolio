@@ -846,12 +846,20 @@ li a {
     padding-left: 70px;
     margin: 0;
   }
+  .pop-header .pop-close {
+    border: none;
+    background-color: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.35rem;
+  }
 
   
 
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 800px) {
   .form2 {
     display: none;
   }
@@ -931,7 +939,7 @@ li a {
 
   .pop-header .pop-close {
     border: none;
-    background-color: none;
+    background-color: transparent;
     outline: none;
     cursor: pointer;
     font-weight: bold;
@@ -939,11 +947,12 @@ li a {
   }
 
   .pop-text .pop-text2 {
-    width: 325px;
+    width: px;
     font-weight: normal;
     size: 16px;
     line-height: 1.5;
     color: #344563;
+    padding-left: 40px;
 
   }
 
@@ -974,16 +983,25 @@ li a {
   }
 
   .svbtn{
-    width: 150px;
+    width: px;
     height: 48px;
 
   }
   
   .pop-body-btn .bbttnn {
+    
+    padding: 17px;
+  }
+
+  .pop-body-btn .spanbtn2 {
     background-color: #f55800;
-    width: 150px;
-    align-items: center;
-    justify-content: center;
+    padding: 22px;
+    margin-left: 15px;
+  }
+
+  .pop-body-btn .spanbtn {
+    background-color: #f55800;
+    padding: 22px;
   }
 
   .pop-header .btns {
@@ -1039,7 +1057,7 @@ li a {
   font-weight: bolder;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
   .pop-up {
     position: fixed;
     border: 1px solid;
@@ -1050,6 +1068,7 @@ li a {
     top: 11px;
     left: 11px;
     display: none;
+    width: 90%;
   }
 
   .pop-body {
@@ -1065,7 +1084,7 @@ li a {
 
   .pop-header .pop-close {
     border: none;
-    background-color: none;
+    background-color: transparent;
     outline: none;
     cursor: pointer;
     font-weight: bold;
@@ -1104,16 +1123,30 @@ li a {
   }
   
   .pop-body-btn .bbttnn {
-    background-color: #f55800;
+    
+    padding: 10px;
+  }
+  .pop-body-btn .bbttnn .svbtn .svg {
+    padding left: 5px;
   }
 
   .pop-header .btns {
     margin: 12px 0;
   }
+  .pop-body-btn .spanbtn2 {
+    background-color: #f55800;
+    padding: 15px;
+  }
+
+  .pop-body-btn .spanbtn {
+    background-color: #f55800;
+    padding: 15px;
+  }
   .mobile-menu {
     display: none;
   }
 }
+
 *{
   transition: none !important;
   

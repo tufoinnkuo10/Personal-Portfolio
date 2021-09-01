@@ -29,7 +29,7 @@ window.onload = () => {
 const projectContent = [
   {
     Image: './image/ref.png',
-    description: 'A daily selection of privately personalized!',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
     name: 'multi post stories',
     technologies: ['Ruby on rails', 'css', 'JavaScript'],
     links: ['https://tufoinnkuo10.github.io/Personal-Portfolio', 'https://github.com/tufoinnkuo10/Personal-Portfolio'],
@@ -43,7 +43,7 @@ const projectContent = [
   },
   {
     Image: './image/dash-data.png',
-    description: 'A daily selection of privatel personalized reads; no accountssign-ups required. Has been the industry standard!',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
     name: 'card 3',
     technologies: ['Ruby on rails', 'css', 'JavaScript'],
     links: ['https://tufoinnkuo10.github.io/Personal-Portfolio', 'https://github.com/tufoinnkuo10/Personal-Portfolio'],
@@ -57,7 +57,7 @@ const projectContent = [
   },
   {
     Image: './image/websitepro.png',
-    description: 'A daily selection of privatel personalized reads; no accountssign-ups required. Has been the industry standard',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
     name: 'card 5',
     technologies: ['Python', 'React', 'bootstrap'],
     links: ['https://tufoinnkuo10.github.io/Personal-Portfolio', 'https://github.com/tufoinnkuo10/Personal-Portfolio'],
