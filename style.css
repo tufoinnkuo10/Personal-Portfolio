@@ -887,19 +887,119 @@ li a {
   }
 
   .pop-up {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    display: non;
-    width: 100%;
-    justify-content: center;
+    align-items: cener;
+    display: flexx;
+    flex-direction: colun;
+    display: none;
+    width: 95%;
+    justify-content: ceter;
     max-width: ;
+    position: fixed;
+    bottom: 0;
+    left: 11px;
+    top: 11px;
+    background-color: #ffffff;
+
    
   }
-  .pop-body .pop-img {
-    padding-left: 3.4rem;
-    padding right: 5.2rem;
+
+  .pop-up .pop-text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+  .pop-body .pop-img {
+    padding-left: 3.4;
+    padding right: 5.2;
+  }
+
+  .pop-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .pop-header {
+    padding: 5px 10px;
+    align-items: center;
+  }
+
+  .pop-header .first-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pop-header .pop-close {
+    border: none;
+    background-color: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.35rem;
+  }
+
+  .pop-text .pop-text2 {
+    width: 325px;
+    font-weight: normal;
+    size: 16px;
+    line-height: 1.5;
+    color: #344563;
+
+  }
+
+  .first-header {
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .pop-header .title {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .pop-body .pop-img {
+    max-width: 325px;
+    margin: 10px 5px;
+    margin-bottom: 10px;
+  }
+
+  .pop-header .btns {
+    margin: 12px 0;
+    padding-left: 80px;
+  }
+
+  .pop-body-btn {
+    margin-top: 80px;
+    
+  }
+
+  .svbtn{
+    width: 150px;
+    height: 48px;
+
+  }
+  
+  .pop-body-btn .bbttnn {
+    background-color: #f55800;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pop-header .btns {
+    margin-top: 50px;
+  }
+  .mobile-menu {
+    display: none;
+  }
+}
+
+
+
+
+
 }
 
 .mobile-menu {
@@ -947,7 +1047,7 @@ li a {
   font-weight: bolder;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 900px) {
   .pop-up {
     position: fixed;
     border: 1px solid;
@@ -957,6 +1057,7 @@ li a {
     background-color: #ffffff;
     top: 11px;
     left: 11px;
+    display: none;
   }
 
   .pop-body {
@@ -1017,4 +1118,11 @@ li a {
   .pop-header .btns {
     margin: 12px 0;
   }
+  .mobile-menu {
+    display: none;
+  }
+}
+*{
+  transition: none !important;
+  
 }
