@@ -59,11 +59,11 @@ const projectContent = [
     Image: './image/websitepro.png',
     description: 'A daily selection of privatel personalized reads; no accountssign-ups required. Has been the industry standard',
     name: 'card 5',
-    technologies: ['Ruby on rails', 'css', 'JavaScript'],
+    technologies: ['Python', 'React', 'bootstrap'],
     links: ['https://tufoinnkuo10.github.io/Personal-Portfolio', 'https://github.com/tufoinnkuo10/Personal-Portfolio'],
   },
   {
-    featuredImage: './image/websitepro.png',
+    Image: './image/websitepro.png',
     description: 'A daily selection of privatel personalized reads; no accountssign-ups required. Has been the industry standard',
     name: 'card 6',
     technologies: ['Ruby on rails', 'css', 'JavaScript'],
@@ -71,11 +71,34 @@ const projectContent = [
   },
 ];
 
-const cproject = document.querySelectorAll('.cproject');
-cproject.forEach((element) => {
-  element.addEventListener('click', () => {
+const buttons = document.querySelectorAll('.cproject');
+buttons.forEach((btn, i) => {
+  btn.addEventListener('click', () => {
+    const project = projectContent[i];
+
     const popup = document.querySelector('.pop-up');
     popup.style.display = 'block';
+
+    // get title of popup
+    const popupTitle = popup.querySelector('.title');
+    const popupImage = popup.querySelector('.pop-img');
+    const popupTech = popup.querySelector('.btns');
+    const popupDesc = popup.querySelector('.pop-text2');
+
+    popupTitle.textContent = project.name;
+    popupImage.src = project.Image;
+
+    popupTech.querySelectorAll('button').forEach((tech, j) => {
+      tech.textContent = project.technologies[j];
+    });
+
+    popupDesc.textContent = project.description;
+
+    const aTags = popup.querySelectorAll('.bbttnn');
+    const [liveLink, sourceLink] = project.links;
+
+    aTags[0].href = liveLink;
+    aTags[1].href = sourceLink;
   });
 });
 
