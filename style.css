@@ -913,6 +913,9 @@ li a {
 
 .btns .popbtn {
   background-color: #fff;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
 
   /* height: 28px; */
   padding: 8px;
@@ -955,7 +958,12 @@ li a {
   }
 
   .pop-up .pop-up-content {
-    /* margin: 10% 10%; */
+    /* height: fit-content; */
+
+    /* height: -moz-fit-content; */
+    width: fit-content;
+    margin: 40px;
+    padding-bottom: 20px;
   }
 
   .pop-up .pop-text2 {
@@ -1029,6 +1037,9 @@ li a {
 
   .pop-body-btn {
     /* margin-top: 45px; */
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
   }
 
   .svbtn {
@@ -1036,15 +1047,19 @@ li a {
   }
 
   .pop-body-btn .bbttnn {
-    padding: 17px;
+    /* padding: 17px; */
+    width: 100%;
+
     /* background-color: #FF6B00;; */
   }
 
   .pop-body-btn .spanbtn {
     background-color: #f55800;
-    /* padding: 15px; */
-    /* padding-left: 10px; */
-    display: block;
+    padding: 10px 15px;
+    display: flex;
+    gap: 0.8em;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .mobile-menu {
