@@ -3,9 +3,9 @@ window.onload = () => {
 
   burger.addEventListener('click', (event) => {
     event.preventDefault();
-    console.log('');
+    // console.log('');
     const mobileMenu = document.querySelector('.mobile-menu');
-    console.log(mobileMenu);
+    // console.log(mobileMenu);
     mobileMenu.classList.add('show');
   });
 
@@ -29,45 +29,69 @@ window.onload = () => {
 const projectContent = [
   {
     Image: './image/ref.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
     name: 'multi post stories',
     technologies: ['Ruby on rails', 'Bootstrap', 'JavaScript'],
-    links: ['https://tufoinnkuo10.github.io/Personal-Portfolio', 'https://github.com/tufoinnkuo10/Personal-Portfolio'],
+    links: [
+      'https://tufoinnkuo10.github.io/Personal-Portfolio',
+      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+    ],
   },
   {
     Image: './image/prof-print.png',
-    description: ' A daily selection of privatel personalized reads; no accountssign-ups required. Has been the industry standard',
+    description:
+      ' A daily selection of privatel personalized reads; no accountssign-ups required. Has been the industry standard',
     name: 'card 2',
     technologies: ['Ruby on rails', 'css', 'JavaScript'],
-    links: ['https://tufoinnkuo10.github.io/Personal-Portfolio', 'https://github.com/tufoinnkuo10/Personal-Portfolio'],
+    links: [
+      'https://tufoinnkuo10.github.io/Personal-Portfolio',
+      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+    ],
   },
   {
     Image: './image/dash-data.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
     name: 'card 3',
     technologies: ['Ruby on rails', 'css', 'JavaScript'],
-    links: ['https://tufoinnkuo10.github.io/Personal-Portfolio', 'https://github.com/tufoinnkuo10/Personal-Portfolio'],
+    links: [
+      'https://tufoinnkuo10.github.io/Personal-Portfolio',
+      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+    ],
   },
   {
     Image: './image/dash-data.png',
-    description: 'A daily selection of privatel personalized reads; no accountssign-ups required. Has been the industry standard',
+    description:
+      'A daily selection of privatel personalized reads; no accountssign-ups required. Has been the industry standard',
     name: 'card 4',
     technologies: ['Ruby on rails', 'css', 'JavaScript'],
-    links: ['https://tufoinnkuo10.github.io/Personal-Portfolio', 'https://github.com/tufoinnkuo10/Personal-Portfolio'],
+    links: [
+      'https://tufoinnkuo10.github.io/Personal-Portfolio',
+      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+    ],
   },
   {
     Image: './image/websitepro.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
     name: 'card 5',
     technologies: ['Python', 'React', 'bootstrap'],
-    links: ['https://tufoinnkuo10.github.io/Personal-Portfolio', 'https://github.com/tufoinnkuo10/Personal-Portfolio'],
+    links: [
+      'https://tufoinnkuo10.github.io/Personal-Portfolio',
+      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+    ],
   },
   {
     Image: './image/websitepro.png',
-    description: 'A daily selection of privatel personalized reads; no accountssign-ups required. Has been the industry standard',
+    description:
+      'A daily selection of privatel personalized reads; no accountssign-ups required. Has been the industry standard',
     name: 'card 6',
     technologies: ['Ruby on rails', 'css', 'JavaScript'],
-    links: ['https://tufoinnkuo10.github.io/Personal-Portfolio', 'https://github.com/tufoinnkuo10/Personal-Portfolio'],
+    links: [
+      'https://tufoinnkuo10.github.io/Personal-Portfolio',
+      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+    ],
   },
 ];
 
@@ -108,12 +132,12 @@ closeElement.addEventListener('click', () => {
   popup.style.display = 'none';
 });
 
-const email = document.getElementById("mail");
+// const email = document.getElementById('mail');
 
-email.addEventListener("input", function (event) {
-  if (email.validity.typeMismatch) {
-    email.setCustomValidity("please use an E-mail address!");
-  } else {
-    email.setCustomValidity("");
-  }
-});
+// email.addEventListener('input', (event) => {
+// if (email.validity.typeMismatch) {
+///  email.setCustomValidity('please use an E-mail address!');
+// } else {
+//   email.setCustomValidity('');
+// }
+// });
