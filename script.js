@@ -1,29 +1,3 @@
-window.onload = () => {
-  const burger = document.querySelector('#hamburger');
-
-  burger.addEventListener('click', (event) => {
-    event.preventDefault();
-    // console.log('');
-    const mobileMenu = document.querySelector('.mobile-menu');
-    // console.log(mobileMenu);
-    mobileMenu.classList.add('show');
-  });
-
-  const iconx = document.querySelector('.iconx');
-
-  iconx.addEventListener('click', () => {
-    const mobileMenu = document.querySelector('.mobile-menu');
-    mobileMenu.classList.remove('show');
-  });
-
-  const mobileMenuList = document.querySelector('.mobile-menu ul');
-
-  mobileMenuList.addEventListener('click', () => {
-    const mobileMenu = document.querySelector('.mobile-menu');
-    mobileMenu.classList.remove('show');
-  });
-};
-
 // content description
 
 const projectContent = [
@@ -95,6 +69,30 @@ const projectContent = [
   },
 ];
 
+const burger = document.querySelector('#hamburger');
+
+burger.addEventListener('click', (event) => {
+  event.preventDefault();
+  // console.log('');
+  const mobileMenu = document.querySelector('.mobile-menu');
+  // console.log(mobileMenu);
+  mobileMenu.classList.add('show');
+});
+
+const iconx = document.querySelector('.iconx');
+
+iconx.addEventListener('click', () => {
+  const mobileMenu = document.querySelector('.mobile-menu');
+  mobileMenu.classList.remove('show');
+});
+
+const mobileMenuList = document.querySelector('.mobile-menu ul');
+
+mobileMenuList.addEventListener('click', () => {
+  const mobileMenu = document.querySelector('.mobile-menu');
+  mobileMenu.classList.remove('show');
+});
+
 const buttons = document.querySelectorAll('.cproject');
 buttons.forEach((btn, i) => {
   btn.addEventListener('click', () => {
@@ -132,12 +130,30 @@ closeElement.addEventListener('click', () => {
   popup.style.display = 'none';
 });
 
-// const email = document.getElementById('mail');
+const form = document.getElementById('input-form');
+console.log('form: ', form);
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
 
-// email.addEventListener('input', (event) => {
-// if (email.validity.typeMismatch) {
-///  email.setCustomValidity('please use an E-mail address!');
-// } else {
-//   email.setCustomValidity('');
-// }
+  const email = form.user_email.value;
+  if (email.toLowerCase() !== email) {
+    console.log('we only allow lowercase emails');
+
+    const errorSpan = form.querySelector('#form-error-message');
+    errorSpan.textContent = 'Expected lowercase email';
+    errorSpan.style.display = 'block';
+  } else {
+    console.log('everything is fine');
+    form.submit();
+  }
+});
+
+// form.user_email.addEventListener('input', () => {
+//   console.log(form.user_email.value);
+
+//   // if (email.validity.typeMismatch) {
+//   //   email.setCustomValidity('please use an E-mail address!');
+//   // } else {
+//   //   email.setCustomValidity('');
+//   // }
 // });

@@ -543,6 +543,19 @@ textarea {
   border: none;
 }
 
+#form-error-message {
+  background-color: gray;
+  color: red;
+  padding: 0.4em 1em;
+  border-radius: 0.2em;
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+  margin-top: 0.4em;
+  font-family: Poppins, sans-serif;
+  display: none;
+}
+
 .form-section > .online-icons {
   width: 100%;
   height: auto;
