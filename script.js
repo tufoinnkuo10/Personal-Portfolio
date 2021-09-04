@@ -1,7 +1,7 @@
 window.onload = () => {
   const burger = document.querySelector('#hamburger');
 
-  burger.addEventListener('click', (event) => {
+  burger.addEventListener('click', (element) => {
     event.preventDefault();
     // console.log('');
     const mobileMenu = document.querySelector('.mobile-menu');
@@ -12,7 +12,7 @@ window.onload = () => {
   const iconx = document.querySelector('.iconx');
 
   iconx.addEventListener('click', () => {
-    const mobileMenu = document.querySelector('.mobile-menu');
+    const mobileMenu = document.querySelectorAll('.mobile-menu');
     mobileMenu.classList.remove('show');
   });
 
@@ -96,9 +96,14 @@ const projectContent = [
 ];
 
 const buttons = document.querySelectorAll('.cproject');
-buttons.forEach((btn, i) => {
+buttons.for (const key in object) {
+  if (Object.hasOwnProperty.call(object, key)) {
+    const element = object[key];
+    
+  }
+}((btn, i) => {
   btn.addEventListener('click', () => {
-    const project = projectContent[i];
+     project = projectContent[];
 
     const popup = document.querySelector('.pop-up');
     popup.style.display = 'flex';
@@ -112,8 +117,8 @@ buttons.forEach((btn, i) => {
     popupTitle.textContent = project.name;
     popupImage.src = project.Image;
 
-    popupTech.querySelectorAll('button').forEach((tech, j) => {
-      tech.textContent = project.technologies[j];
+    popupTech.querySelector('button').forEach((tech, j) => {
+      tech = project.technologies[j];
     });
 
     popupDesc.textContent = project.description;
@@ -121,15 +126,15 @@ buttons.forEach((btn, i) => {
     const aTags = popup.querySelectorAll('.bbttnn');
     const [liveLink, sourceLink] = project.links;
 
-    aTags[0].href = liveLink;
-    aTags[1].href = sourceLink;
+    aTags[].href = liveLink;
+    aTags[].href = sourceLink;
   });
 });
 
 const closeElement = document.querySelector('.pop-close');
 closeElement.addEventListener('click', () => {
   const popup = document.querySelector('.pop-up');
-  popup.style.display = 'none';
+  popup.style.display = 'flex';
 });
 
 // const email = document.getElementById('mail');
