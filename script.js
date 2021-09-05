@@ -131,7 +131,7 @@ closeElement.addEventListener('click', () => {
 });
 
 const form = document.getElementById('input-form');
-console.log('form: ', form);
+// console.log('form: ', form);
 form.addEventListener('submit', (event) => {
   event.preventDefault();
 
@@ -148,12 +148,25 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-// form.user_email.addEventListener('input', () => {
-//   console.log(form.user_email.value);
+// Setting local Storage for input form
 
-//   // if (email.validity.typeMismatch) {
-//   //   email.setCustomValidity('please use an E-mail address!');
-//   // } else {
-//   //   email.setCustomValidity('');
-//   // }
-// });
+const storageName = 'inputFormDetails';
+
+const currentStorage = JSON.parse(window.localStorage.getItem(storageName));
+
+if (currentStorage) {
+  // console.log('I have some storage already => ', currentStorage);
+  form.user_name.value = currentStorage.username;
+  form.user_email.value = currentStorage.email;
+  form.message.value = currentStorage.message;
+}
+
+form.addEventListener('input', () => {
+  const newData = {
+    username: form.user_name.value,
+    email: form.user_email.value,
+    message: form.message.value,
+  };
+
+  window.localStorage.setItem(storageName, JSON.stringify(newData));
+});
