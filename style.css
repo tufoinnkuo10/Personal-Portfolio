@@ -543,6 +543,19 @@ textarea {
   border: none;
 }
 
+#form-error-message {
+  background-color: gray;
+  color: red;
+  padding: 0.4em 1em;
+  border-radius: 0.2em;
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+  margin-top: 0.4em;
+  font-family: Poppins, sans-serif;
+  display: none;
+}
+
 .form-section > .online-icons {
   width: 100%;
   height: auto;
@@ -593,7 +606,7 @@ li a {
   margin-top: 100px;
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 800px) {
   .menuitems2 {
     display: none;
   }
@@ -630,6 +643,7 @@ li a {
   .big-form-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 
   .section3,
@@ -787,7 +801,7 @@ li a {
   }
 
   .main-form {
-    display: none;
+    display: flex;
   }
 
   .form1 {
@@ -850,8 +864,9 @@ li a {
     font-weight: bold;
     font-size: 32px;
     text-align: left;
-    padding-left: 70px;
+    padding-left: 30px;
     margin: 0;
+    padding-right: 20px;
   }
 
   .pop-header .pop-close {
@@ -889,7 +904,7 @@ li a {
 }
 
 .pop-body .pop-text .pop-text2 {
-  padding-bottom: 1em;
+  padding-bottom: 2.5em;
 }
 
 .pop-header {
@@ -909,6 +924,8 @@ li a {
 .pop-up .pop-up-content {
   background-color: #fff;
   border-color: rgb(0, 132, 255);
+  margin: 20px 30px;
+  padding-bottom: 40px;
 }
 
 .btns .popbtn {
@@ -962,7 +979,7 @@ li a {
 
     /* height: -moz-fit-content; */
     width: fit-content;
-    margin: 40px;
+    margin: 20px;
     padding-bottom: 20px;
   }
 
@@ -1014,7 +1031,7 @@ li a {
 
   .pop-header .title {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 28px;
     padding-left: 20px;
   }
 
@@ -1026,11 +1043,13 @@ li a {
     /* max-width: 325px; */
     width: 100%;
     padding: 0 20px;
+    height: 220px;
   }
 
   .pop-header .btns {
     margin: 10px 0;
     padding-left: 20px;
+    padding-bottom: 15px;
 
     /* margin-top: 60px; */
   }
@@ -1055,7 +1074,7 @@ li a {
 
   .pop-body-btn .spanbtn {
     background-color: #f55800;
-    padding: 10px 15px;
+    padding: 5px 10px;
     display: flex;
     gap: 0.8em;
     align-items: center;
@@ -1180,8 +1199,11 @@ li a {
     width: max-content;
   }
 
-  .pop-header .btns {
-    margin: 12px 0;
+  textarea {
+    background-color: #fbf8f7;
+    height: 100px;
+    padding: 1px;
+    width: 400px;
   }
 
   .pop-body-btn .spanbtn {

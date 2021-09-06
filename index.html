@@ -277,39 +277,36 @@
     <section class="form-section" id="form-section">
       <div class="big-form-container">
         <div class="formtext">
-          <p>I'am always interested in hearing about new projects, so if you'd like to please get in</p>
+          <p>I'am always interested in hearing about new projects, so if you'd like to please get in touch</p>
         </div>
         <div class="main-form">
-          <form action="https://formspree.io/f/xbjqpyeb" 
+          <form id="input-form" action="https://formspree.io/f/xbjqpyeb" 
           method="POST">
-
             <ul class="forml">
-
               <li>
-                <input type="text" required maxlength="30" placeholder="Full name" name="full name">
+                <input type="text" maxlength="30" placeholder="Full name" name="user_name">
               </li>
               <li>
-                <input type="email"  required placeholder="Email address" name="user-email" id="email">
+                <input type="email"  required placeholder="Email address" name="user_email" id="email">
               </li>
               <li>
-                <textarea name="text" maxlength="500" required id="textarea" placeholder="Enter text here" cols="30"
+                <textarea class="texside" name="message" maxlength="500" id="textarea" placeholder="Enter text here" cols="30"
                   rows="10"></textarea>
               </li>
-
             </ul>
-
-
+            <button type="submit" class="formbutton bsecond">
+              Get in touch
+            </button>
+            <span id="form-error-message">dsafdsfdasf</span>
           </form>
-
-        
         </div>
 
-        <div class="f2">
-          <form action="https://formspree.io/f/xbjqpyeb" method="POST">
+        <!-- <div class="f2">
+          <form class="desktop-form" action="https://formspree.io/f/xbjqpyeb" method="POST">
             <ul class="form2">
               <li>
                 <input type="text" required maxlength="30" placeholder="First name" name="First name">
-                <input type="text" required maxlength="30" placeholder="Last name" name="Last name">
+                <input type="text" required maxlength="30" placeholder="Full name" name="user_name">
               </li>
               <li>
                 <input type="email" required placeholder="Email address" name="user-email" id="emai">
@@ -323,7 +320,7 @@
               Get in touch
             </button>
           </form>
-        </div>
+        </div> -->
       </div>
       <div class="icons3">
         <img src="./image/iconsssssb.png" alt="bottom-icon">
@@ -375,7 +372,7 @@
       <div class="pop-body">
         <img class="pop-img" src="./image/pop-img.png" alt="portfolio image">
         <div class="pop-text">
-          <p class="pop-text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>
+          <p class="pop-text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.</p>
           <div class="pop-body-btn">
             <a href="/" class="bbttnn" target="_blank"  rel="noopener noreferrer">
               <span class="spanbtn">
