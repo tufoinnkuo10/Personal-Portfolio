@@ -1093,7 +1093,7 @@ li a {
   color: white;
 }
 
-.mobile-menu.show {
+.mobile-menu.showing {
   display: block;
 }
 

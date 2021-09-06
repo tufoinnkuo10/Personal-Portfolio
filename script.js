@@ -6,21 +6,21 @@ window.onload = () => {
     // console.log('');
     const mobileMenu = document.querySelector('.mobile-menu');
     // console.log(mobileMenu);
-    mobileMenu.classList.add('show');
+    mobileMenu.classList.add('showing');
   });
 
   const iconx = document.querySelector('.iconx');
 
   iconx.addEventListener('click', () => {
     const mobileMenu = document.querySelector('.mobile-menu');
-    mobileMenu.classList.remove('show');
+    mobileMenu.classList.remove('showing');
   });
 
   const mobileMenuList = document.querySelector('.mobile-menu ul');
 
   mobileMenuList.addEventListener('click', () => {
     const mobileMenu = document.querySelector('.mobile-menu');
-    mobileMenu.classList.remove('show');
+    mobileMenu.classList.remove('showing');
   });
 };
 
