@@ -553,7 +553,7 @@ textarea {
   width: fit-content;
   margin-top: 0.4em;
   font-family: Poppins, sans-serif;
-  display: none;
+  display: non;
 }
 
 .form-section > .online-icons {
@@ -582,7 +582,7 @@ li a {
   padding: 0 10px;
 }
 
-.form-section>.line22 {
+.form-section > .line22 {
   justify-content: center;
   align-items: center;
   width: 150px;
