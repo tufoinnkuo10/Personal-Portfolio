@@ -3,9 +3,7 @@ window.onload = () => {
 
   burger.addEventListener('click', (event) => {
     event.preventDefault();
-    
     const mobileMenu = document.querySelector('.mobile-menu');
-    
     mobileMenu.classList.add('showing');
   });
 

@@ -582,7 +582,7 @@ li a {
   padding: 0 10px;
 }
 
-.form-section > .line22 {
+.form-section>.line22 {
   justify-content: center;
   align-items: center;
   width: 150px;
@@ -933,8 +933,6 @@ li a {
   font-weight: 600;
   font-family: Poppins, sans-serif;
   font-size: 13px;
-
-  /* height: 28px; */
   padding: 8px;
   border: 1px solid black;
 }
@@ -975,19 +973,11 @@ li a {
   }
 
   .pop-up .pop-up-content {
-    /* height: fit-content; */
-
-    /* height: -moz-fit-content; */
     width: fit-content;
     margin: 20px;
     padding-bottom: 20px;
-  }
-
-  .pop-up .pop-text2 {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
   }
 
   .pop-body {
@@ -995,6 +985,7 @@ li a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100%;
   }
 
   .pop-header .first-header {
@@ -1009,15 +1000,6 @@ li a {
     cursor: pointer;
     font-weight: bold;
     font-size: 1.35rem;
-  }
-
-  .pop-up-content {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .pop-body {
-    height: 100%;
   }
 
   .pop-text {
@@ -1036,7 +1018,6 @@ li a {
     flex-basis: 0;
     min-height: 2em;
     overflow: auto;
-    /*! margin-bottom: 20px; *//*! width: unset; */
   }
 
   .pop-text .pop-text2 {
