@@ -544,11 +544,11 @@ textarea {
 }
 
 #form-error-message {
-  background-color: gray;
-  color: red;
+  background-color: #eee;
+  color: #9c2a2a;
   padding: 0.4em 1em;
   border-radius: 0.2em;
-  margin: 0 auto;
+  margin: 0;
   display: block;
   width: fit-content;
   margin-top: 0.4em;
