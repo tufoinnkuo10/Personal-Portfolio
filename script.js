@@ -137,7 +137,6 @@ form.addEventListener('submit', (event) => {
 
   const email = form.user_email.value;
   if (email.toLowerCase() !== email) {
-
     const errorSpan = form.querySelector('#form-error-message');
     errorSpan.textContent = 'Expected Email in lowercase';
     errorSpan.style.display = 'block';
