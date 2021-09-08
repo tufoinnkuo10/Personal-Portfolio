@@ -130,12 +130,20 @@ closeElement.addEventListener('click', () => {
   popup.style.display = 'none';
 });
 
-// const email = document.getElementById('mail');
+const form = document.getElementById('input-form');
+// console.log('form: ', form);
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
 
-// email.addEventListener('input', (event) => {
-// if (email.validity.typeMismatch) {
-///  email.setCustomValidity('please use an E-mail address!');
-// } else {
-//   email.setCustomValidity('');
-// }
-// });
+  const email = form.user_email.value;
+  if (email.toLowerCase() !== email) {
+    //console.log('sorry, only lower case allowed');
+
+    const errorSpan = form.querySelector('#form-error-message');
+    errorSpan.textContent = 'Expected Email in lowercase';
+    errorSpan.style.display = 'block';
+  } else {
+    //console.log('everything is fine');
+    form.submit();
+  }
+});

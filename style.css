@@ -544,8 +544,8 @@ textarea {
 }
 
 #form-error-message {
-  background-color: gray;
-  color: red;
+  background-color: #eee;
+  color: #9c2a2a;
   padding: 0.4em 1em;
   border-radius: 0.2em;
   margin: 0 auto;
@@ -934,6 +934,10 @@ li a {
   font-size: 13px;
   padding: 8px;
   border: 1px solid black;
+}
+
+#form-error-message {
+  margin: 0px;
 }
 
 @media screen and (max-width: 800px) {
