@@ -151,7 +151,7 @@ const storageName = 'inputFormDetails';
 
 const currentStorage = JSON.parse(window.localStorage.getItem(storageName));
 
-if (currentStorage) { 
+if (currentStorage) {
   form.user_name.value = currentStorage.username;
   form.user_email.value = currentStorage.email;
   form.message.value = currentStorage.message;
