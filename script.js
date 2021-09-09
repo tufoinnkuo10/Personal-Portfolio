@@ -130,8 +130,8 @@ closeElement.addEventListener('click', () => {
   popup.style.display = 'none';
 });
 
+//email validity section
 const form = document.getElementById('input-form');
-// console.log('form: ', form);
 form.addEventListener('submit', (event) => {
   event.preventDefault();
 
@@ -143,4 +143,27 @@ form.addEventListener('submit', (event) => {
   } else {
     form.submit();
   }
+});
+
+// Setting local Storage for input form
+
+const storageName = 'inputFormDetails';
+
+const currentStorage = JSON.parse(window.localStorage.getItem(storageName));
+
+if (currentStorage) {
+  // console.log('I have some storage already => ', currentStorage);
+  form.user_name.value = currentStorage.username;
+  form.user_email.value = currentStorage.email;
+  form.message.value = currentStorage.message;
+}
+
+form.addEventListener('input', () => {
+  const newData = {
+    username: form.user_name.value,
+    email: form.user_email.value,
+    message: form.message.value,
+  };
+
+  window.localStorage.setItem(storageName, JSON.stringify(newData));
 });
