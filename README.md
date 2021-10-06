@@ -1,5 +1,6 @@
 # Personal-Portfolio
-A Demo web page of  my self (Mobile/Desktop version)
+A personal webpage that contains a personal project and a list of links to other projects both mobile and desktop versions.
+**other projects can be found down**
 
 > Figma clone project
 Designed a personal Mobile and Desktop responsive webpage about myself with a template from Figma.
@@ -44,10 +45,14 @@ This milestone consist of the various sections
 
 [live preview of conference page](https://tufoinnkuo10.github.io/Capstone-1/)
 
+
+
 **Awesome books project**
 ![screenshot](./image/awesome.png)
 
-[Live PREVIEW](https://tufoinnkuo10.github.io/AWESOME-BOOKS/)
+[Live PREVIEW OF awesome books](https://tufoinnkuo10.github.io/AWESOME-BOOKS/)
+
+
 
 **Todo-list**
 ![screenshot](./image/todoo.png)
