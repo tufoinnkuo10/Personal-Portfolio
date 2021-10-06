@@ -35,6 +35,25 @@ This milestone consist of the various sections
 - Create a branch and work on
 - And finaly you can also demand for a pull request
 
+### OTHER PROJECTS INCLUDE;
+**Live conference page**
+
+![screenshot](./image/con1.png)
+![screenshot](./image/con2.png)
+![screenshot](./image/con3.png)
+
+[live preview of conference page](https://tufoinnkuo10.github.io/Capstone-1/)
+
+**Awesome books project**
+![screenshot](./image/awesome.png)
+
+[Live PREVIEW](https://tufoinnkuo10.github.io/AWESOME-BOOKS/)
+
+**Todo-list**
+![screenshot](./image/todoo.png)
+
+[Todo live-link](https://tufoinnkuo10.github.io/TODO/dist/)
+
 ### Prerequisites
 
 - Internet connection
