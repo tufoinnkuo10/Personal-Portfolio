@@ -68,7 +68,7 @@ This milestone consist of the various sections
 
 **Book Store**
 # LIVE PREVIEW
-> ![demo-gif](./images/bookstore.gif)
+> ![demo-gif](./image/bookstore.gif)
 > # Live links
 > [Netlify-link](https://tufoins-bookstore.netlify.app/)
 
