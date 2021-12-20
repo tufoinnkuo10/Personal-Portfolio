@@ -59,6 +59,19 @@ This milestone consist of the various sections
 
 [Todo live-link](https://tufoinnkuo10.github.io/TODO/dist/)
 
+**Maths Magician**
+> ![demo-gif](./images/calc.gif)
+
+# Live links
+[Heroku-link](https://maths-magician10.herokuapp.com/)
+[Netlify-link](https://tufoins-maths-app.netlify.app/)
+
+**Book Store**
+# LIVE PREVIEW
+> ![demo-gif](./images/bookstore.gif)
+> # Live links
+> [Netlify-link](https://tufoins-bookstore.netlify.app/)
+
 ### Prerequisites
 
 - Internet connection
