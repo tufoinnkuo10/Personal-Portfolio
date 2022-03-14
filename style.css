@@ -613,7 +613,7 @@ li a {
   .nav :hover {
     transform: rotate(360deg);
     font-size: 25px;
-    background-color: #ff6b00;
+    /* background-color: #ff6b00; */
     transition: all 1s ease-out;
     cursor: pointer;
   }
