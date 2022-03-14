@@ -1224,4 +1224,8 @@ li a {
   .mobile-menu {
     display: none;
   }
+
+  .imggg{
+    border-radius: 2rem;
+  }
 }
