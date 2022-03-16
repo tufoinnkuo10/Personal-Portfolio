@@ -613,7 +613,6 @@ li a {
   .nav :hover {
     transform: rotate(360deg);
     font-size: 25px;
-    /* background-color: #ff6b00; */
     transition: all 1s ease-out;
     cursor: pointer;
   }
@@ -1211,10 +1210,6 @@ li a {
 
   .pop-body .pop-img {
     max-width: 600px;
-
-    /* margin: 10px 5px; */
-
-    /* margin-bottom: 10px; */
   }
 
   .pop-body-btn {
