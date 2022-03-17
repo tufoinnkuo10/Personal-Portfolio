@@ -120,7 +120,8 @@ h6 {
 
 .projectimg {
   margin-top: 2rem;
-  width: 60%;
+  width: 50%;
+  border-radius: 2rem;
 }
 
 .work-h1 {
@@ -299,7 +300,7 @@ h6 {
 }
 
 .aboutme-c {
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
   background-image: url(/image/sidepic2.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -308,7 +309,8 @@ h6 {
 .line2 {
   border: 1px solid #fff;
   color: #fff;
-  margin-top: 17rem;
+  margin-top: 10rem;
+  margin-right: 7rem;
 }
 
 .about-section-h1 {
@@ -610,10 +612,20 @@ li a {
     display: none;
   }
 
+  .work-h4 {
+    color: #091e42;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
   .nav :hover {
     transform: rotate(360deg);
     font-size: 25px;
-    background-color: #ff6b00;
     transition: all 1s ease-out;
     cursor: pointer;
   }
@@ -639,10 +651,22 @@ li a {
     cursor: pointer;
   }
 
+  .online-icons :hover {
+    color: #ff6b00;
+  }
+
+  .iii a {
+    color: #091e42;
+    font-weight: bold;
+    padding: 1rem;
+    padding-top: 1rem;
+  }
+
   .big-form-container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 2rem;
   }
 
   .section3,
@@ -742,6 +766,7 @@ li a {
     background-repeat: no-repeat;
     background-size: 450px;
     background-position: 100% 38%;
+    padding-left: 6rem;
   }
 
   .langs {
@@ -780,10 +805,10 @@ li a {
   }
 
   .form-section {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 130px 0;
   }
 
   .formtext {
@@ -801,6 +826,7 @@ li a {
 
   .main-form {
     display: flex;
+    padding-left: 2rem;
   }
 
   .form1 {
@@ -812,8 +838,16 @@ li a {
     width: 500px;
   }
 
-  .icons3 {
-    margin-top: 100px;
+  .formbutton {
+    background-color: #ff6b00;
+    margin: auto;
+    font-size: 16px;
+    width: 10rem;
+    height: 39px;
+    color: #f4f1f0;
+    padding: 12px;
+    border: none;
+    border-radius: 2rem;
   }
 
   h4,
@@ -938,6 +972,10 @@ li a {
 
 @media screen and (max-width: 800px) {
   .form2 {
+    display: none;
+  }
+
+  .down-icons {
     display: none;
   }
 
@@ -1139,10 +1177,31 @@ li a {
   font-weight: bolder;
 }
 
+.mainhead {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 @media screen and (min-width: 800px) {
   .pop-up {
     align-items: center;
     padding: 10%;
+  }
+
+  .mainhead {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  #skills-section {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    color: #fff;
+    padding-right: 4rem;
   }
 
   .pop-body {
@@ -1160,6 +1219,14 @@ li a {
     cursor: pointer;
     font-weight: bold;
     font-size: 1.35rem;
+    padding-top: 12rem;
+  }
+
+  .pop-up .pop-up-content {
+    background-color: #fff;
+    border-color: rgb(0, 132, 255);
+    margin: 20px 30px;
+    padding-bottom: 5rem;
   }
 
   .pop-text .pop-text2 {
@@ -1190,16 +1257,13 @@ li a {
 
   .pop-body .pop-img {
     max-width: 600px;
-
-    /* margin: 10px 5px; */
-
-    /* margin-bottom: 10px; */
   }
 
   .pop-body-btn {
     /* margin-top: 80px; */
     display: flex;
     gap: 1em;
+    margin-bottom: 2rem;
   }
 
   .pop-body-btn .bbttnn {
@@ -1223,5 +1287,9 @@ li a {
 
   .mobile-menu {
     display: none;
+  }
+
+  .imggg {
+    border-radius: 2rem;
   }
 }
