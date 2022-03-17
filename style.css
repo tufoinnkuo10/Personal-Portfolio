@@ -997,6 +997,10 @@ li a {
     display: none;
   }
 
+  .down-icons {
+    display: none;
+  }
+
   .liston-button {
     border: none;
     background: #ff6b00;
