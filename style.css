@@ -603,10 +603,6 @@ li a {
   flex-direction: column;
 }
 
-.icons3 {
-  margin-top: 100px;
-}
-
 @media screen and (min-width: 800px) {
   .menuitems2 {
     display: none;
@@ -977,6 +973,10 @@ li a {
 @media screen and (max-width: 800px) {
   .form2 {
     display: none;
+  }
+
+  .icons3 {
+    margin-top: 100px;
   }
 
   .down-icons {
