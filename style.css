@@ -557,7 +557,7 @@ textarea {
   font-family: Poppins, sans-serif;
 }
 
-.form-section>.online-icons {
+.form-section > .online-icons {
   width: 100%;
   height: auto;
   display: flex;
@@ -566,7 +566,7 @@ textarea {
   flex-direction: column;
 }
 
-.form-section>.online-icons i {
+.form-section > .online-icons i {
   color: #505f79;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -583,7 +583,7 @@ li a {
   padding: 0 10px;
 }
 
-.form-section>.line22 {
+.form-section > .line22 {
   justify-content: center;
   align-items: center;
   width: 150px;
@@ -609,10 +609,6 @@ li a {
 
 @media screen and (min-width: 800px) {
   .menuitems2 {
-    display: none;
-  }
-
-  .icons3 {
     display: none;
   }
 
@@ -655,15 +651,15 @@ li a {
     cursor: pointer;
   }
 
+  .online-icons :hover {
+    color: #ff6b00;
+  }
+
   .iii a {
     color: #091e42;
     font-weight: bold;
     padding: 1rem;
     padding-top: 1rem;
-  }
-
-  .iii a :hover {
-    background-color: none;
   }
 
   .big-form-container {
@@ -748,10 +744,6 @@ li a {
     position: absolute;
   }
 
-  .online-icons :hover {
-    color: #ff6b00;
-  }
-
   .first-box {
     flex-direction: row;
     margin-left: 20px;
@@ -817,8 +809,6 @@ li a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    /* padding: 130px 0; */
   }
 
   .formtext {
@@ -848,10 +838,6 @@ li a {
     width: 500px;
   }
 
-  .icons3 {
-    margin-top: 100px;
-  }
-
   .formbutton {
     background-color: #ff6b00;
     margin: auto;
@@ -862,14 +848,6 @@ li a {
     padding: 12px;
     border: none;
     border-radius: 2rem;
-  }
-
-  .iconz {
-
-  }
-
-  .down-icons {
-
   }
 
   h4,
@@ -1248,7 +1226,8 @@ li a {
     background-color: #fff;
     border-color: rgb(0, 132, 255);
     margin: 20px 30px;
-    padding-bottom: 5rem;}
+    padding-bottom: 5rem;
+  }
 
   .pop-text .pop-text2 {
     font-weight: 400;
