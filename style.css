@@ -156,9 +156,9 @@ h6 {
 }
 
 .work-p {
-  color: #091e42;
+  color: #031025;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 16px;
   line-height: 24px;
   font-family: "Inter", sans-serif;
@@ -606,6 +606,32 @@ li a {
 @media screen and (min-width: 800px) {
   .menuitems2 {
     display: none;
+  }
+
+  .project-btn {
+    margin-top: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: #ff6b00;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2rem;
+    border: none;
+    padding: 0.3rem 0.1rem;
+    width: 17rem;
+  }
+
+  .workbgg {
+    background-image: url(./image/recovv.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .work-h1 {
+    margin-top: 0px;
   }
 
   .icons3 {

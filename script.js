@@ -26,14 +26,14 @@ window.onload = () => {
 
 const projectContent = [
   {
-    Image: './image/pop-img.png',
+    Image: './image/docdoc.png',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    name: 'Multi-Post Stories',
-    technologies: ['Ruby on rails', 'Bootstrap', 'JavaScript'],
+      'Recovon is an online site aimed at facilitating the interaction between doctors and patients. It contains a variety of ready available doctors from a patient to chose from depending on what he or she is sick of. All you have to do is book an appointment with a doctor of your choice',
+    name: 'RecoOn Application',
+    // technologies: ['Ruby on rails', 'Bootstrap', 'JavaScript'],
     links: [
-      'https://tufoinnkuo10.github.io/Personal-Portfolio',
-      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+      'https://recovon.netlify.app/',
+      'https://github.com/tufoinnkuo10/recovon-frontend',
     ],
   },
   {
