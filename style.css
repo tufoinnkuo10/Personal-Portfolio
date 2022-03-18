@@ -604,7 +604,20 @@ li a {
 }
 
 @media screen and (min-width: 800px) {
+  .liston-button {
+    border: none;
+    background: #ff6b00;
+    width: 327px;
+    height: 48px;
+    margin-top: 1rem;
+    border-radius: 1rem;
+  }
+
   .menuitems2 {
+    display: none;
+  }
+
+  .listons-container {
     display: none;
   }
 
