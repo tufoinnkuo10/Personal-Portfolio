@@ -994,6 +994,7 @@ li a {
 
 .pop-header .pop-close {
   padding: 37px;
+  padding-top: 3rem;
   box-sizing: border-box;
 }
 
