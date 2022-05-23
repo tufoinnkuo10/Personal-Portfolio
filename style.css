@@ -242,6 +242,15 @@ h6 {
   color: #fff;
 }
 
+.professional-pp {
+  color: rgb(97, 30, 30);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .professional-btn:enabled {
   background: #f55800;
   color: #fff;
@@ -334,6 +343,10 @@ h6 {
   line-height: 24px;
   color: #f4f5f7;
   padding: 0 2rem;
+}
+
+.bbb {
+  color: rgb(49, 10, 10);
 }
 
 .about-section-button {
@@ -728,16 +741,28 @@ li a {
   }
 
   .aaa {
-    background-image: url(./image/prof-print.png);
+    background-image: url(./image/awesome.png);
     margin-bottom: 50px;
   }
 
   .bbb {
-    background-image: url(./image/dash-data.png);
+    background-image: url(./image/con1.png);
   }
 
   .ccc {
-    background-image: url(./image/websitepro.png);
+    background-image: url(./image/bookstore.png);
+  }
+
+  .ddd {
+    background-image: url(./image/rocketapp2.png);
+  }
+
+  .eee {
+    background-image: url(./image/maths1.png);
+  }
+
+  .fff {
+    background-image: url(./image/transaction1.png);
   }
 
   .content-container {
