@@ -39,56 +39,67 @@ const projectContent = [
   {
     Image: './image/awesome.png',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+      'This project is designed to add and remove Books added to the local storage with the use of classes... Books are being added in order..Books are also being removed respectively..All the books are being stored in the local storage unless when it is removed...Books wont be added unless both author and title fields are filled.',
     name: 'Space Rockets',
     // technologies: ['Ruby on rails', 'css', 'JavaScript'],
+    links: [
+      'https://tufoinnkuo10.github.io/AWESOME-BOOKS/',
+      'https://github.com/tufoinnkuo10/AWESOME-BOOKS',
+    ],
+  },
+  {
+    Image: './image/con1.png',
+    description:
+      'a conference page (the home and the about section). in contains information about a conference held in preparation for the afcon 2022. It has both the desktop and mobile version and they work well responsively. Hope you like what you see!',
+    name: 'card 3',
+    technologies: ['Ruby on rails', 'css', 'JavaScript'],
+    links: [
+      'https://tufoinnkuo10.github.io/Capstone-1/',
+      'https://github.com/tufoinnkuo10/Capstone-1',
+    ],
+  },
+  {
+    Image: './image/bookstore.png',
+    description:
+      'A simple React app that collects and displays books, App has a home page and a category page..  Books added can also be removed as well .. The Books author and Category are been displayed Books are stored and gotten from an Api ..Unwanted books can be removed,,  App styled according to recommended style in Zeplin',
+    name: 'card 4',
+    technologies: ['Ruby on rails', 'css', 'JavaScript'],
+    links: [
+      'https://tufoins-bookstore.netlify.app/',
+      'https://github.com/tufoinnkuo10/react-bookstore',
+    ],
+  },
+  {
+    Image: './image/rocketapp2.png',
+    description:
+      'SPA that gets data from an API and displays that information on the different pages.The app has a rocket page, mission page and dragon page.. Rockets can be reserved as well as reservation can be cancelled, Missions can be joined and left as well, All reserved rockets and joined missions are displayed in the profile page, All information on the different pages are gotten from a given API',
+    name: 'card 5',
+    technologies: ['Python', 'React', 'bootstrap'],
     links: [
       'https://space-ships-and-missions.netlify.app/',
       'https://github.com/tufoinnkuo10/Space-Rockets_Hub',
     ],
   },
   {
-    Image: './image/con1.png',
+    Image: './image/maths1.png',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    name: 'card 3',
+    'This is a SPA Calculator app that solves basic math problems. Built with React It consist Three basic pages, the Home/Calculator and Quote page...Additional description about the project and its features. The Home page is the main page and welcomes you to the app The Calculator page is where you make all the basic calculations The Quote page has some Quotes made by maths heroes',
+    name: 'card 6',
     technologies: ['Ruby on rails', 'css', 'JavaScript'],
     links: [
-      'https://tufoinnkuo10.github.io/Personal-Portfolio',
-      'https://github.com/tufoinnkuo10/Personal-Portfolio',
-    ],
-  },
-  {
-    Image: './image/bookstore.png',
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    name: 'card 4',
-    technologies: ['Ruby on rails', 'css', 'JavaScript'],
-    links: [
-      'https://tufoinnkuo10.github.io/Personal-Portfolio',
-      'https://github.com/tufoinnkuo10/Personal-Portfolio',
-    ],
-  },
-  {
-    Image: './image/rocketapp2.png',
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    name: 'card 5',
-    technologies: ['Python', 'React', 'bootstrap'],
-    links: [
-      'https://tufoinnkuo10.github.io/Personal-Portfolio',
-      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+      'https://tufoins-maths-app.netlify.app/',
+      'https://github.com/tufoinnkuo10/Maths-magician',
     ],
   },
   {
     Image: './image/transaction.png',
     description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    'This is a mobile Application(responsive), based on managing and analysing different categories of user transactions and checking what was spent on what by a particular user.',
     name: 'card 6',
     technologies: ['Ruby on rails', 'css', 'JavaScript'],
     links: [
-      'https://tufoinnkuo10.github.io/Personal-Portfolio',
-      'https://github.com/tufoinnkuo10/Personal-Portfolio',
+      'https://my-transaction-app.herokuapp.com/groups',
+      'https://github.com/tufoinnkuo10/Transaction_App',
     ],
   },
 ];
@@ -109,12 +120,12 @@ buttons.forEach((btn, i) => {
 
     popupTitle.textContent = project.name;
     popupImage.src = project.Image;
+    popupDesc.textContent = project.description;
 
     popupTech.querySelectorAll('button').forEach((tech, j) => {
       tech.textContent = project.technologies[j];
     });
 
-    popupDesc.textContent = project.description;
 
     const aTags = popup.querySelectorAll('.bbttnn');
     const [liveLink, sourceLink] = project.links;
