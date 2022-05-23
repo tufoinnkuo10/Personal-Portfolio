@@ -37,7 +37,7 @@ const projectContent = [
     ],
   },
   {
-    Image: './image/prof-print.png',
+    Image: './image/awesome.png',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     name: 'Space Rockets',
@@ -48,7 +48,7 @@ const projectContent = [
     ],
   },
   {
-    Image: './image/dash-data.png',
+    Image: './image/con1.png',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     name: 'card 3',
@@ -59,7 +59,7 @@ const projectContent = [
     ],
   },
   {
-    Image: './image/dash-data.png',
+    Image: './image/bookstore.png',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     name: 'card 4',
@@ -70,7 +70,7 @@ const projectContent = [
     ],
   },
   {
-    Image: './image/websitepro.png',
+    Image: './image/rocketapp.png',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     name: 'card 5',
@@ -81,7 +81,7 @@ const projectContent = [
     ],
   },
   {
-    Image: './image/websitepro.png',
+    Image: './image/transaction.png',
     description:
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     name: 'card 6',
